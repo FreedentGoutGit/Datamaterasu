@@ -40,3 +40,6 @@ Our goal is to bridge the gap between projected climate scenarios and practical 
 
 [CCUS Map](https://ccusmap.com/)
 * Visualization of active CCUS ventures. Main features blocked behind a paywall. Not very nice looking. No projections
+
+[Our world in data](https://ourworldindata.org/co2-emissions)
+* Our world in data has a lot of detailed analysis of GHG and CO2 emission metrics, with interesting interactive graphs. Very specific topics are covered each time, links are harder to find.
