@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| | |
+| Pablo Palle | |
 | Victor Pennacino | 310608 |
 |    Hod Kimhi   | 385031 |
 
