@@ -65,12 +65,12 @@ To implement the basic visualization, we have broken down the project into small
 
 To give our visualization and the story more meaning, we would also like to implement the following on top of the basic premise:
 
-* Ability to focus and filter within the Globe.gl visualization, such as filtering emissions by industry or focusing to emissions per city, rather than per country
-* Showcase the "future consequences" data at a global scale, either on a 2D map or 3D globe, demonstrating the increased frequency and geographic location of natural disasters and other consequences
-* Similarly, demonstrate the advance and implementation of potential solutions with concrete examples by country and industry
-* Graph the implementation of implemented solutions against the rate of consequences, showcasing how the solutions have real-world affects
+* **Emissions:** Ability to focus and filter within the Globe.gl visualization, such as filtering emissions by industry or focusing to emissions per city, rather than per country
+* **Impact:** Showcase the "future consequences" data at a global scale, either on a 2D map or 3D globe, demonstrating the increased frequency and geographic location of natural disasters and other consequences
+* **Solutions:** Similarly, demonstrate the advance and implementation of potential solutions with concrete examples by country and industry
+* **Hybrid:** Graph the implementation of implemented solutions against the rate of consequences, showcasing how the solutions have real-world affects
 
 
 ## Basic Prototype
-We have created a basic prototype of the webpage with a simple Globe.gl visualization, which can be found [here](https://freedentgoutgit.github.io/Datamaterasu/website/) or by running a basic web server in the `website/` directory
+We have created a basic prototype of the webpage with interactive informative charts and a simple Globe.gl visualization, which can be found [here](https://freedentgoutgit.github.io/Datamaterasu/website/) or by running a basic web server in the `website/` directory. The page scrolling functionnalities were implemented using [fullPage.js](https://github.com/alvarotrigo/fullPage.js?).
 
