@@ -9,23 +9,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="/website/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.css" integrity="sha512-i5IHYtHBVvbgT6M4ltVKNqF7fh/MTVfGh3ilW1gxxgmlMocsl8aYz28aF0Iph+ceUpun06UW9CpExog9qXqFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div id="fullpage">
     <div class="section " id="section0">
-      <video autoplay muted loop plays-inline class="background">
-        <source src="website/images/17_Loop_sssss.mp4" type="video/mp4">
-      </video>
-
       <h1>Datamaterasu group website</h1>
       <p>
         We want to explore the effects of CO2 and GHG gas emissions on the environment, as well as potential solutions.
       </p>
 
       <p>
-        We have devided our work into three parts 
+        We have divided our work into three parts 
       </p>
       <ul>
         <li>Section 1: CO2 & GHG gas emissions</li>
@@ -96,7 +92,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    fetch("./impact/index.html")
+    fetch("./website/impact/index.html")
       .then(response => response.text())
       .then(data => {
         document.getElementById('impactDiv').innerHTML = data;
@@ -107,5 +103,5 @@
 </script>
 
 <!--add a style sheet ref-->
-<link rel="stylesheet" href="./impact/style.css" />
-<script src="./impact/script.js"></script>
+<link rel="stylesheet" href="./website/impact/style.css" />
+<script src="./website/impact/script.js"></script>
