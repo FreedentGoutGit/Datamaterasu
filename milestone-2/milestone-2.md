@@ -72,5 +72,5 @@ To give our visualization and the story more meaning, we would also like to impl
 
 
 ## Basic Prototype
-We have created a basic prototype of the webpage with interactive informative charts and a simple Globe.gl visualization, which can be found [here](https://freedentgoutgit.github.io/Datamaterasu/website/) or by running a basic web server in the `website/` directory. The page scrolling functionnalities were implemented using [fullPage.js](https://github.com/alvarotrigo/fullPage.js?).
+We have created a basic prototype of the webpage with interactive informative charts and a simple Globe.gl visualization, which can be found [here](https://freedentgoutgit.github.io/Datamaterasu/) or by running a basic web server in the `website/` directory. The page scrolling functionnalities were implemented using [fullPage.js](https://github.com/alvarotrigo/fullPage.js?).
 
