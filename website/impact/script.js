@@ -104,27 +104,38 @@ function reloadImpact()
   {
 
       infos[i].addEventListener("mouseover", function(event){
-      if(!locked)
-      {
-        //drestroy all the previous div class name "InfosExtra"
-        const divs = document.getElementsByClassName("InfosExtra");
-        for(let j = 0; j < divs.length; j++)
+        if(!locked)
         {
-          //remove the div
-          divs[j].remove();
-          openStats("0%");
-          //delay of 0.5s
+          //drestroy all the previous div class name "InfosExtra"
+          const divs = document.getElementsByClassName("InfosExtra");
+          for(let j = 0; j < divs.length; j++)
+          {
+            //remove the div
+            divs[j].remove();
+            openStats("0%");
+            //delay of 0.5s
+          }
+          if(event.target.width >= sizeBeforeOpen)
+          {
+            const alt = infos[i].getAttribute("alt");
+            currentDiv = createInfoExtra(alt);
+            
+            //increase the width from 0 to 30% in animation
+            openStats("100%");
+          }
+        }
+      });
 
-        }
-        if(event.target.width >= sizeBeforeOpen)
+      infos[i].addEventListener("mouseleave", function(event){
+        if(!locked)
         {
-          const alt = infos[i].getAttribute("alt");
-          currentDiv = createInfoExtra(alt);
-          
-          //increase the width from 0 to 30% in animation
-          openStats("100%");
+          //check if the mouse is over the div
+          tagOverName = window.event.target.className;
+          console.log(tagOverName);
+            //remove the div
+          currentDiv.remove();
+          openStats("0%");
         }
-      }
     });
 
 
@@ -191,8 +202,8 @@ function createInfoExtra(alt)
     div.appendChild(p);
 
     //set the position of the div to the mouse position
-    div.style.left = event.pageX  + 'px';
-    div.style.top = event.pageY  + 'px';
+    div.style.left = event.pageX +5 + 'px';
+    div.style.top = event.pageY +5 + 'px';
 
     document.body.appendChild(div);
 
