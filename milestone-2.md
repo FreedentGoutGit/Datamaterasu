@@ -59,8 +59,8 @@ To implement the basic visualization, we have broken down the project into small
 
 * Clean the input emission data
 * Collect the emission data into JS, and attach it to a Globe.gl element
-* Collect and clean data relating emissions to future consequences (temperature increase, sea level rise, etc.)
-* Display the "future consequences" data either as a time-series graph or various illustrations
+* Collect and clean data relating emissions to future consequences and impact (temperature increase, sea level rise, etc.)
+* Display the impact data either as a time-series graph or various illustrations
 * A basic write-up of potential solutions to the challenge of global emissions and minimizing future consequences, with examples
 
 To give our visualization and the story more meaning, we would also like to implement the following on top of the basic premise:
