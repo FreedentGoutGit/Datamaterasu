@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.MainCircle{
+  width: 45%;
+  aspect-ratio: 1/1;
+
+  position: relative;
+  margin: 0 auto;
+}
+
+.QuadrantCircle{
+  position: absolute;
+
+  clip-path: polygon(50% 50%, 100% 38%, 100% 100%, 38% 100%);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+#Q1{
+  clip-path: polygon(0 0, 50% 50%, 38% 100%, 0% 100%);
+  background-color: #ff2f05;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#Q2{
+  clip-path: polygon(0 0, 100% 0, 100% 38%, 50% 50%);
+  background-color: #2dd000;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#Q3{
+  background-color: #1d1dc9;
+  clip-path: polygon(50% 50%, 100% 38%, 100% 100%, 38% 100%);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.Infos{
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#Q1support
+{
+  transform-origin: center;
+  transform: rotate(-45deg);
+}
+
+.Infos#Q1InfosA{
+  top: 50%;
+  left: 10%;
+}
+
+.Infos#Q1InfosB{
+  top: 30%;
+  left: 15%;
+}
+
+.Infos#Q1InfosC{
+  top: 15%;
+  left: 30%;
+}
+
+#Q2support
+{
+  transform-origin: center;
+  transform: rotate(75deg);
+}
+
+.Infos#Q2InfosA{
+  top: 50%;
+  left: 10%;
+}
+
+.Infos#Q2InfosB{
+  top: 30%;
+  left: 15%;
+}
+
+.Infos#Q2InfosC{
+  top: 15%;
+  left: 30%;
+}
+
+#Q3support
+{
+  transform-origin: center;
+  transform: rotate(195deg);
+}
+
+.Infos#Q3InfosA{
+  top: 50%;
+  left: 10%;
+}
+
+.Infos#Q3InfosB{
+  top: 30%;
+  left: 17%;
+}
+
+.Infos#Q3InfosC{
+  top: 15%;
+  left: 30%;
+}
+
+.supportInfo
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.InfosExtra
+{
+  width: 15rem;
+  height: auto;
+  background-color: honeydew;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.InfosExtra h1
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: gray;
+  position: relative;
+  margin: 0;
+  padding: 3%;
+
+}
+
+.InfosExtra p
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  background-color: rgb(147, 146, 146);
+  margin: 0;
+  padding: 3%;
+}
+
+.sideLeftStatsContainer
+{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    top: 0;
+    background-color: rgb(189, 206, 226);
+    float: left;
+}
+.sideRightStatsContainer
+{
+  height: 100%;
+  width: 30%;
+  position: relative;
+  right: 0;
+  top: 0;
+  background-color: rgb(189, 206, 226);
+  float: left;
+}
+
+.sideLeftStats
+{
+  height: 100%;
+  width: 0%;
+  position: relative;
+  right: 0;
+  top: 0;
+  background-color: rgb(140, 154, 171);
+  float: left;
+}
+
+.sideRightStats
+{
+  height: 100%;
+  width: 0%;
+  position: relative;
+  right: 0;
+  top: 0;
+  background-color: rgb(140, 154, 171);
+  float: right;
+}
+
+.center
+{
+  width: 40%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  float: left;
+  overflow: hidden;
+  align-content: space-around;
+}
+
+.main
+{
+  background-color: rgb(189, 206, 226);
+  height: 100%;
+    width: 100%;
+    overflow: unset;
+}
