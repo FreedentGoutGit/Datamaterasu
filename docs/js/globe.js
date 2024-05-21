@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					return 'green';
 					// element['footprint (Mt CO2)'] * scale_factor > 1 ? 'red' : 'blue')
 				})
-			(document.getElementById('globeViz'))
+			(document.getElementById('globeViz2'))
 		})
-		.catch(error => console.error('Error fetching data:', error));
+		.catch(error => console.error("Error fetching data: (cities)", error));
 });
