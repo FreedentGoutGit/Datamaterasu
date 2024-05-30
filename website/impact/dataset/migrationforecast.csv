@@ -1,0 +1,43 @@
+﻿Region,Hazard,Population exposed,Climate Scenario,Socio-economic Scenario,Income,Year
+"World","Heat wave",583113000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2030
+"World","Heat wave",722548000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2040
+"World","Heat wave",793946000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2050
+"World","Heat wave",893805000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2060
+"World","Heat wave",884284000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2070
+"World","Heat wave",861935000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2080
+"World","Heat wave",749708000,"RCP 2.6 (Low warming)","SSP 1 ('Sustainability')","Total",2090
+"World","Heat wave",567756000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2030
+"World","Heat wave",737295000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2040
+"World","Heat wave",880198000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2050
+"World","Heat wave",1085430000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2060
+"World","Heat wave",1394290000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2070
+"World","Heat wave",1475440000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2080
+"World","Heat wave",1616380000,"RCP 6.0 (High warming)","SSP 1 ('Sustainability')","Total",2090
+"World","Heat wave",606955000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2030
+"World","Heat wave",770158000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2040
+"World","Heat wave",872141000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2050
+"World","Heat wave",1012680000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2060
+"World","Heat wave",1037500000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2070
+"World","Heat wave",1055680000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2080
+"World","Heat wave",959580000,"RCP 2.6 (Low warming)","SSP 2 ('Middle of the Road')","Total",2090
+"World","Heat wave",591730000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2030
+"World","Heat wave",787791000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2040
+"World","Heat wave",966701000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2050
+"World","Heat wave",1233500000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2060
+"World","Heat wave",1626140000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2070
+"World","Heat wave",1782360000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2080
+"World","Heat wave",2034620000,"RCP 6.0 (High warming)","SSP 2 ('Middle of the Road')","Total",2090
+"World","Heat wave",632811000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2030
+"World","Heat wave",826520000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2040
+"World","Heat wave",971667000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2050
+"World","Heat wave",1183400000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2060
+"World","Heat wave",1279270000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2070
+"World","Heat wave",1394440000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2080
+"World","Heat wave",1343940000,"RCP 2.6 (Low warming)","SSP 3 ('Regional Rivalry')","Total",2090
+"World","Heat wave",618187000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2030
+"World","Heat wave",847219000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2040
+"World","Heat wave",1075920000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2050
+"World","Heat wave",1444620000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2060
+"World","Heat wave",1986440000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2070
+"World","Heat wave",2301330000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2080
+"World","Heat wave",2799570000,"RCP 6.0 (High warming)","SSP 3 ('Regional Rivalry')","Total",2090

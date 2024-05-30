@@ -1,0 +1,167 @@
+.main
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.center
+{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 10%;
+    margin-top: 5%;
+
+    position: relative;
+
+}
+
+.impactDiv
+{
+    width: 100%;
+    height: 70%;
+    margin-top: 0%;
+
+    display: flex;
+
+    position: relative;
+
+
+}
+
+.impactCol
+{
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+
+
+
+    border : 1px solid black;
+}
+
+.HeaderContainer
+{
+    width: 90%;
+    height: 10%;
+
+    display: flex;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    margin-top: 10%;
+}
+
+.Header
+{
+    width: 95%;
+    height: 100%;
+
+
+    background-color: #19273f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%);
+
+
+}
+.Header h1
+{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    font-size: 0.8em;
+    font-weight: bold;
+
+    color: rgb(222, 221, 221);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.impactElement
+{
+    width: 80%;
+    height: 4%;
+
+    background-color: rgb(180, 196, 7);
+
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.impactElement p
+{
+
+    font-size: 0.8em;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.containerInfos {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+}
+.headerInfos {
+    background-color: #4285f4;
+    color: white;
+    font-size: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 15%;
+}
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    height: 90%;
+}
+.event {
+    width: 12%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    height: 90%;
+}
+.event img {
+    height: 50%;
+    width: 90%;
+}
+.event h3 {
+    width: 100%;
+    background-color: #f1f1f1;
+    font-size: auto;
+
+    width: 100%;
+    height: auto;
+
+    margin: inherit;
+}
+.event p {
+    padding: 10px;
+    font-size: auto;
+}
