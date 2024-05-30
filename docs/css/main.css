@@ -51,6 +51,44 @@ h1{
     z-index: -1; /* Ensure it stays in the background */
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 40%;
+	position: absolute;
+	bottom: 100px;
+	left: 30%;
+	background: white;  /* TODO remove when switching to light theme */
+}
+
+#progressContainer {
+  flex-grow: 1;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+#progressBar {
+  height: 30px;
+  background-color: #76c7c0;
+  border-radius: 15px 0 0 15px;
+}
+
+#yearDisplay {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
     background: rgba(255, 255, 255, 0.606) !important;
 }
