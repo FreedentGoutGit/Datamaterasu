@@ -1,5 +1,23 @@
+:root {
+	--text-color: #FFFFFF;
+	--palette1: #E5D9B6;
+	--palette2: #A4BE7B;
+	--palette3: #5F8D4E;
+	--palette4: #285430;
+	--selected: #0056b3;
+}
+
+body {
+	/* font-family: 'Arial', sans-serif; */
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: var(--text-color);
+	text-shadow: -0.01em 0.04em 0.1em black;
+}
+
 h1 {
-	color: rgb(255, 255, 255);
 	font-size: 50px;
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
@@ -7,7 +25,7 @@ h1 {
 }
 
 .section {
-	background-color: rgb(229, 217, 182);
+	background-color: var(--palette1);
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -16,9 +34,8 @@ h1 {
 }
 
 .section p {
-	font-size: 17px;
+	font-size: 18px;
 	font-family: "Montserrat", sans-serif;
-	color: rgb(255, 255, 255);
 	text-align: center;
 }
 
@@ -33,13 +50,11 @@ h1 {
 	display: inline;
 	margin: 0 10px;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
 	font-family: "Montserrat", sans-serif;
 	font-size: 15px;
 }
 
 .fp-tooltip.fp-right {
-	color: white !important;
 	font-family: "Montserrat", sans-serif !important;
 	font-size: 15px !important;
 }
@@ -54,33 +69,32 @@ h1 {
 	z-index: -1; /* Ensure it stays in the background */
 }
 
-.controls {
-	position: absolute;
+#globeControls {
 	margin: 12px;
-	top: 45vh;
 	display: flex;
 	flex-direction: column;
 	z-index: 5;
+	grid-row: 2;
+	justify-content: center;
 
 	button {
 		margin: 4px;
 	}
 }
 
-.container {
+#progressBarContainer {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	width: 40%;
-	position: absolute;
-	bottom: 100px;
-	left: 30%;
-	background: white;  /* TODO remove when switching to light theme */
+	grid-column: 2;
+	grid-row: 3;
+	width: 80%;
+	margin: auto;
 }
 
 #progressContainer {
 	flex-grow: 1;
-	background-color: #e0e0e0;
+	background-color: var(--palette2);
 	border-radius: 15px;
 	overflow: hidden;
 	position: relative;
@@ -89,13 +103,34 @@ h1 {
 
 #progressBar {
 	height: 30px;
-	background-color: #76c7c0;
+	background-color: var(--palette4);
 	border-radius: 15px 0 0 15px;
 }
 
 #yearDisplay {
 	font-weight: bold;
 	margin-left: 10px;
+}
+
+#globeViz1 {
+	grid-row: 2;
+	grid-column: 2;
+}
+
+#visualizerContainer {
+	display: grid;
+	grid-template-columns: 50% 50%
+}
+
+#globeContainer {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 20% 60% 10% 10%;
+	height: 100vh;
+}
+
+#visualizerContent {
+	align-content: center;
 }
 
 .control-button {
@@ -120,8 +155,8 @@ h1 {
 button {
 	padding: 10px 20px;
 	font-size: 16px;
-	background-color: #285430;
-	color: #fff;
+	background-color: var(--palette4);
+	color: var(--text-color);
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
@@ -130,7 +165,7 @@ button {
 }
 
 button:hover {
-	background-color: #0056b3;
+	background-color: var(--selected);
 }
 
 #my_dataviz {
@@ -146,17 +181,6 @@ svg {
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
-}
-
-#controls {
-	margin: 20px 0;
-}
-
-body {
-	font-family: 'Arial', sans-serif;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
 }
 
 #myVideo{
@@ -198,7 +222,6 @@ body {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	z-index: 2;
-	color: white;
 }
 
 /* Sunburst visualisation*/
@@ -210,5 +233,8 @@ sunburst-container {
 	height: 50vh;
 	width: 80%;
 	box-sizing: border-box;
-	background-color: #E5D9B6;
+}
+
+.fp-watermark {
+	text-shadow: none;
 }

@@ -5,9 +5,11 @@ const getColor = (country, year) => {
 	try {
 		return colorScale(getEmissions(country, year));
 	} catch (error) {
-		return "black";
+		return "gray";
 	}
 }
+const vw_to_px = (vw) => document.documentElement.clientWidth / 100 * vw;
+const vh_to_px = (vh) => document.documentElement.clientHeight / 100 * vh;
 
 document.addEventListener('DOMContentLoaded', () => {
 	Promise.all([
@@ -21,8 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
 			colorScale.domain([minVal, maxVal]);
 
 			const world = Globe()
-				.globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-				.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+				.globeImageUrl('//unpkg.com/three-globe/example/img/earth-day.jpg')
+				.backgroundColor("#E5D9B6")
+				.width(0.7 * vw_to_px(50))
+				.height(0.6 * vh_to_px(100))
 				.lineHoverPrecision(0)
 				.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'))
 				.polygonAltitude(0.05)
@@ -34,14 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
 					const current_year = window.getCurrentYear();
 					let emissions;
 					try {
-						emissions = getEmissions(current_country, current_year);
+						emissions = `${getEmissions(current_country, current_year)}%`;
 					} catch(error) {
-						emissions = 0;
+						emissions = "N/A";
 					}
 
 					return `
 						<b>${d.ADMIN} (${d.ISO_A3}):</b> <br />
-						Share of Global CO2 Emissions: <i>${current_year}: ${emissions}%</i>
+						Share of Global CO2 Emissions: <i>${emissions}</i>
 						`
 				})
 			// .onPolygonHover(hoverD => world
