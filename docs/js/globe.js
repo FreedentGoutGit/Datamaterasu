@@ -25,9 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	])
 		.then(([countries, owid_data, ggmcf_data]) => {
 			const currentYear = window.getCurrentYear();
-			const minVal = owid_data.yearly_min_max[currentYear].min_share_global_co2.toFixed(2);
+			// const minVal = owid_data.yearly_min_max[currentYear].min_share_global_co2.toFixed(2);
 			const maxVal = owid_data.yearly_min_max[currentYear].max_share_global_co2.toFixed(2);
-			countryColorScale.domain([minVal, maxVal]);
+			// countryColorScale.domain([minVal, maxVal]);
+			countryColorScale.domain([-0.5, maxVal]);
 
 			const maxCityFootprint = Math.max(...ggmcf_data.map(getFootprint))
 			const maxHeight = 0.5;
@@ -88,9 +89,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			document.addEventListener('yearChanged', function(event) {
 				const currentYear = event.detail.currentYear;
-				const minVal = owid_data.yearly_min_max[currentYear].min_share_global_co2.toFixed(2);
+				// const minVal = owid_data.yearly_min_max[currentYear].min_share_global_co2.toFixed(2);
 				const maxVal = owid_data.yearly_min_max[currentYear].max_share_global_co2.toFixed(2);
-				countryColorScale.domain([minVal, maxVal]);
+				// countryColorScale.domain([minVal, maxVal]);
+				countryColorScale.domain([-0.5, maxVal]);
 
 				world.polygonCapColor(({ properties: d }) => {
 					const country = owid_data[d.ISO_A3];
