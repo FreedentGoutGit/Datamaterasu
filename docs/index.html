@@ -19,7 +19,6 @@
 		<script src="https://d3js.org/d3.v7.min.js"></script>
 		<script type="module" src="js/impact.js"></script>
 		<script type="module" src="js/globe.js"></script>
-		<script type="module" src="js/globe-countries.js"></script>
 		<script type="module" src="js/III_a_scenarios_visualization.js"></script>
 		<script type="module" src="js/III_b_solutions_visualization.js"></script>
 		<script defer src="js/progress-bar.js"></script>
@@ -113,11 +112,10 @@
 						<div id="globeContainer">
 							<div id="globeControls">
 								<p style="margin-bottom: 0">Filter</p>
-								<button type="button">Continents</button>
-								<button type="button">Countries</button>
-								<button type="button">Cities</button>
+								<button type="button" id="filterCountry">Countries</button>
+								<button type="button" id="filterCity">Cities</button>
 							</div>
-							<div id="globeViz1"></div>
+							<div id="globeViz"></div>
 							<div id="progressBarContainer">
 								<button id="playPauseButton" class="control-button">
 									<i id="playPauseIcon" class="fas fa-play"></i>
@@ -135,9 +133,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="section3-slide2">
-					<div id="globeViz2"></div>
-				</div>
 			</div>
 		</div>
 
@@ -154,7 +149,7 @@
 				showActiveTooltip: true,
 				scrollingSpeed: 1000,
 				controlArrows: false,
-				normalScrollElements: "#globeViz1, #globeViz2",
+				normalScrollElements: "#globeViz",
 				afterLoad: function(origin, destination, direction) {
 					if (destination.index === 2 && destination.item.querySelector('#slide2')) {
 						loadAndPlotData(); // Start the animation when entering the chart section
