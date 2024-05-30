@@ -54,6 +54,19 @@ h1 {
 	z-index: -1; /* Ensure it stays in the background */
 }
 
+.controls {
+	position: absolute;
+	margin: 12px;
+	top: 45vh;
+	display: flex;
+	flex-direction: column;
+	z-index: 5;
+
+	button {
+		margin: 4px;
+	}
+}
+
 .container {
 	display: flex;
 	align-items: center;
