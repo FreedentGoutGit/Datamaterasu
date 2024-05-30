@@ -64,9 +64,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			// set points layer settings for cities
 			world
-				.pointLabel(element => element.city + ', ' + element.country)
+				.pointLabel(city => `
+					<b>${city.city}, ${city.country}</b> <br />
+					<b>Global Ranking:</b> ${city['global ranking']} <br />
+					<b>Emissions:</b> ${getFootprint(city)} Mt CO2
+				`)
 				.pointAltitude(city => getFootprint(city) / maxCityFootprint * maxHeight)
-			.pointColor(city => cityColorScale(getFootprint(city) / maxCityFootprint))
+				.pointColor(city => cityColorScale(getFootprint(city) / maxCityFootprint))
+				.pointRadius(0.4);
 
 			// initialize with country layer
 			world

@@ -3,6 +3,7 @@
         "city": "Seoul",
         "country": "South Korea",
         "footprint (Mt CO2)": "276.1",
+        "global ranking": 1,
         "lat": "37.5600",
         "lng": "126.9900"
     },
@@ -10,6 +11,7 @@
         "city": "Guangzhou",
         "country": "China",
         "footprint (Mt CO2)": "272.0",
+        "global ranking": 2,
         "lat": "23.1300",
         "lng": "113.2600"
     },
@@ -17,6 +19,7 @@
         "city": "New York",
         "country": "USA",
         "footprint (Mt CO2)": "233.5",
+        "global ranking": 3,
         "lat": "40.6943",
         "lng": "-73.9249"
     },
@@ -24,6 +27,7 @@
         "city": "Los Angeles",
         "country": "USA",
         "footprint (Mt CO2)": "196.4",
+        "global ranking": 5,
         "lat": "34.1141",
         "lng": "-118.4068"
     },
@@ -31,6 +35,7 @@
         "city": "Shanghai",
         "country": "China",
         "footprint (Mt CO2)": "181.0",
+        "global ranking": 6,
         "lat": "31.2286",
         "lng": "121.4747"
     },
@@ -38,6 +43,7 @@
         "city": "Country of Singapore",
         "country": "Singapore",
         "footprint (Mt CO2)": "161.1",
+        "global ranking": 7,
         "lat": "1.3000",
         "lng": "103.8000"
     },
@@ -45,6 +51,7 @@
         "city": "Chicago",
         "country": "USA",
         "footprint (Mt CO2)": "152.9",
+        "global ranking": 8,
         "lat": "41.8375",
         "lng": "-87.6866"
     },
@@ -52,6 +59,7 @@
         "city": "Riyadh",
         "country": "Saudi Arabia",
         "footprint (Mt CO2)": "118.8",
+        "global ranking": 10,
         "lat": "24.6333",
         "lng": "46.7167"
     },
@@ -59,6 +67,7 @@
         "city": "Dubai",
         "country": "UAE",
         "footprint (Mt CO2)": "110.8",
+        "global ranking": 11,
         "lat": "25.2631",
         "lng": "55.2972"
     },
@@ -66,6 +75,7 @@
         "city": "Wuxi",
         "country": "China",
         "footprint (Mt CO2)": "110.4",
+        "global ranking": 12,
         "lat": "31.4910",
         "lng": "120.3120"
     },
@@ -73,6 +83,7 @@
         "city": "Johannesburg",
         "country": "South Africa",
         "footprint (Mt CO2)": "105.2",
+        "global ranking": 13,
         "lat": "-26.2044",
         "lng": "28.0456"
     },
@@ -80,6 +91,7 @@
         "city": "Tehran",
         "country": "Iran",
         "footprint (Mt CO2)": "104.4",
+        "global ranking": 14,
         "lat": "35.6892",
         "lng": "51.3889"
     },
@@ -87,6 +99,7 @@
         "city": "Moscow",
         "country": "Russia",
         "footprint (Mt CO2)": "99.5",
+        "global ranking": 15,
         "lat": "55.7558",
         "lng": "37.6172"
     },
@@ -94,6 +107,7 @@
         "city": "London",
         "country": "UK",
         "footprint (Mt CO2)": "98.9",
+        "global ranking": 16,
         "lat": "51.5072",
         "lng": "-0.1275"
     },
@@ -101,6 +115,7 @@
         "city": "Beijing",
         "country": "China",
         "footprint (Mt CO2)": "83.7",
+        "global ranking": 18,
         "lat": "39.9067",
         "lng": "116.3975"
     },
@@ -108,6 +123,7 @@
         "city": "Jakarta",
         "country": "Indonesia",
         "footprint (Mt CO2)": "83.7",
+        "global ranking": 19,
         "lat": "-6.1750",
         "lng": "106.8275"
     },
@@ -115,6 +131,7 @@
         "city": "Al-Ahmadi",
         "country": "Kuwait",
         "footprint (Mt CO2)": "80.6",
+        "global ranking": 20,
         "lat": "29.0769",
         "lng": "48.0838"
     },
@@ -122,6 +139,7 @@
         "city": "Miami",
         "country": "USA",
         "footprint (Mt CO2)": "80.3",
+        "global ranking": 21,
         "lat": "25.7840",
         "lng": "-80.2101"
     },
@@ -129,6 +147,7 @@
         "city": "Samut Prakan",
         "country": "Thailand",
         "footprint (Mt CO2)": "80.0",
+        "global ranking": 22,
         "lat": "13.5897",
         "lng": "100.6386"
     },
@@ -136,6 +155,7 @@
         "city": "Paris",
         "country": "France",
         "footprint (Mt CO2)": "78.0",
+        "global ranking": 23,
         "lat": "48.8567",
         "lng": "2.3522"
     },
@@ -143,6 +163,7 @@
         "city": "Dallas",
         "country": "USA",
         "footprint (Mt CO2)": "76.9",
+        "global ranking": 24,
         "lat": "32.7935",
         "lng": "-96.7667"
     },
@@ -150,6 +171,7 @@
         "city": "Tianjin",
         "country": "China",
         "footprint (Mt CO2)": "71.4",
+        "global ranking": 25,
         "lat": "39.1336",
         "lng": "117.2054"
     },
@@ -157,6 +179,7 @@
         "city": "Istanbul",
         "country": "Turkey",
         "footprint (Mt CO2)": "70.9",
+        "global ranking": 26,
         "lat": "41.0136",
         "lng": "28.9550"
     },
@@ -164,6 +187,7 @@
         "city": "Detroit",
         "country": "USA",
         "footprint (Mt CO2)": "70.6",
+        "global ranking": 27,
         "lat": "42.3834",
         "lng": "-83.1024"
     },
@@ -171,6 +195,7 @@
         "city": "Philadelphia",
         "country": "USA",
         "footprint (Mt CO2)": "70.2",
+        "global ranking": 28,
         "lat": "40.0077",
         "lng": "-75.1339"
     },
@@ -178,6 +203,7 @@
         "city": "San Jose",
         "country": "USA",
         "footprint (Mt CO2)": "70.0",
+        "global ranking": 29,
         "lat": "37.3012",
         "lng": "-121.8480"
     },
@@ -185,6 +211,7 @@
         "city": "New Delhi",
         "country": "India",
         "footprint (Mt CO2)": "69.6",
+        "global ranking": 30,
         "lat": "28.6139",
         "lng": "77.2089"
     },
@@ -192,6 +219,7 @@
         "city": "Cologne",
         "country": "Germany",
         "footprint (Mt CO2)": "69.6",
+        "global ranking": 31,
         "lat": "50.9364",
         "lng": "6.9528"
     },
@@ -199,6 +227,7 @@
         "city": "Houston",
         "country": "USA",
         "footprint (Mt CO2)": "66.1",
+        "global ranking": 32,
         "lat": "29.7860",
         "lng": "-95.3885"
     },
@@ -206,6 +235,7 @@
         "city": "Jeddah",
         "country": "Saudi Arabia",
         "footprint (Mt CO2)": "63.1",
+        "global ranking": 33,
         "lat": "21.5433",
         "lng": "39.1728"
     },
@@ -213,6 +243,7 @@
         "city": "Osaka",
         "country": "Japan",
         "footprint (Mt CO2)": "58.9",
+        "global ranking": 35,
         "lat": "34.6939",
         "lng": "135.5022"
     },
@@ -220,6 +251,7 @@
         "city": "Buenos Aires",
         "country": "Argentina",
         "footprint (Mt CO2)": "57.5",
+        "global ranking": 36,
         "lat": "-34.6033",
         "lng": "-58.3817"
     },
@@ -227,6 +259,7 @@
         "city": "Mexico City",
         "country": "Mexico",
         "footprint (Mt CO2)": "55.7",
+        "global ranking": 37,
         "lat": "19.4333",
         "lng": "-99.1333"
     },
@@ -234,6 +267,7 @@
         "city": "Shah Alam",
         "country": "Malaysia",
         "footprint (Mt CO2)": "53.9",
+        "global ranking": 38,
         "lat": "3.0722",
         "lng": "101.5167"
     },
@@ -241,6 +275,7 @@
         "city": "Taipei",
         "country": "Taiwan",
         "footprint (Mt CO2)": "53.3",
+        "global ranking": 39,
         "lat": "25.0375",
         "lng": "121.5625"
     },
@@ -248,6 +283,7 @@
         "city": "Phoenix",
         "country": "USA",
         "footprint (Mt CO2)": "52.1",
+        "global ranking": 40,
         "lat": "33.5722",
         "lng": "-112.0892"
     },
@@ -255,6 +291,7 @@
         "city": "Wuhan",
         "country": "China",
         "footprint (Mt CO2)": "51.2",
+        "global ranking": 41,
         "lat": "30.5934",
         "lng": "114.3046"
     },
@@ -262,6 +299,7 @@
         "city": "Hangzhou",
         "country": "China",
         "footprint (Mt CO2)": "49.2",
+        "global ranking": 42,
         "lat": "30.2670",
         "lng": "120.1530"
     },
@@ -269,6 +307,7 @@
         "city": "Toronto",
         "country": "Canada",
         "footprint (Mt CO2)": "49.1",
+        "global ranking": 43,
         "lat": "43.7417",
         "lng": "-79.3733"
     },
@@ -276,6 +315,7 @@
         "city": "Nanjing",
         "country": "China",
         "footprint (Mt CO2)": "44.7",
+        "global ranking": 44,
         "lat": "32.0608",
         "lng": "118.7789"
     },
@@ -283,6 +323,7 @@
         "city": "Shenyang",
         "country": "China",
         "footprint (Mt CO2)": "44.6",
+        "global ranking": 45,
         "lat": "41.8025",
         "lng": "123.4281"
     },
@@ -290,6 +331,7 @@
         "city": "Melbourne",
         "country": "Australia",
         "footprint (Mt CO2)": "44.4",
+        "global ranking": 46,
         "lat": "-37.8142",
         "lng": "144.9631"
     },
@@ -297,6 +339,7 @@
         "city": "Shantou",
         "country": "China",
         "footprint (Mt CO2)": "43.8",
+        "global ranking": 47,
         "lat": "23.3540",
         "lng": "116.6820"
     },
@@ -304,6 +347,7 @@
         "city": "Madrid",
         "country": "Spain",
         "footprint (Mt CO2)": "43.4",
+        "global ranking": 48,
         "lat": "40.4169",
         "lng": "-3.7033"
     },
@@ -311,6 +355,7 @@
         "city": "Kolkata",
         "country": "India",
         "footprint (Mt CO2)": "42.9",
+        "global ranking": 49,
         "lat": "22.5675",
         "lng": "88.3700"
     },
@@ -318,6 +363,7 @@
         "city": "Sydney",
         "country": "Australia",
         "footprint (Mt CO2)": "41.2",
+        "global ranking": 51,
         "lat": "-33.8678",
         "lng": "151.2100"
     },
@@ -325,6 +371,7 @@
         "city": "Xi'an",
         "country": "China",
         "footprint (Mt CO2)": "41.2",
+        "global ranking": 52,
         "lat": "34.2611",
         "lng": "108.9422"
     },
@@ -332,6 +379,7 @@
         "city": "Chengdu",
         "country": "China",
         "footprint (Mt CO2)": "40.5",
+        "global ranking": 53,
         "lat": "30.6600",
         "lng": "104.0633"
     },
@@ -339,6 +387,7 @@
         "city": "Boston",
         "country": "USA",
         "footprint (Mt CO2)": "37.1",
+        "global ranking": 55,
         "lat": "42.3188",
         "lng": "-71.0852"
     },
@@ -346,6 +395,7 @@
         "city": "Baotou",
         "country": "China",
         "footprint (Mt CO2)": "36.8",
+        "global ranking": 56,
         "lat": "40.6213",
         "lng": "109.9532"
     },
@@ -353,6 +403,7 @@
         "city": "Taiyuan",
         "country": "China",
         "footprint (Mt CO2)": "35.6",
+        "global ranking": 57,
         "lat": "37.8704",
         "lng": "112.5497"
     },
@@ -360,6 +411,7 @@
         "city": "Denver",
         "country": "USA",
         "footprint (Mt CO2)": "35.4",
+        "global ranking": 58,
         "lat": "39.7620",
         "lng": "-104.8758"
     },
@@ -367,6 +419,7 @@
         "city": "Athens",
         "country": "Greece",
         "footprint (Mt CO2)": "35.3",
+        "global ranking": 59,
         "lat": "37.9842",
         "lng": "23.7281"
     },
@@ -374,6 +427,7 @@
         "city": "Atlanta",
         "country": "USA",
         "footprint (Mt CO2)": "34.8",
+        "global ranking": 60,
         "lat": "33.7628",
         "lng": "-84.4220"
     },
@@ -381,6 +435,7 @@
         "city": "Seattle",
         "country": "USA",
         "footprint (Mt CO2)": "34.1",
+        "global ranking": 61,
         "lat": "47.6211",
         "lng": "-122.3244"
     },
@@ -388,6 +443,7 @@
         "city": "Yinchuan",
         "country": "China",
         "footprint (Mt CO2)": "33.8",
+        "global ranking": 62,
         "lat": "38.4850",
         "lng": "106.2250"
     },
@@ -395,6 +451,7 @@
         "city": "Sao Paulo",
         "country": "Brazil",
         "footprint (Mt CO2)": "33.6",
+        "global ranking": 63,
         "lat": "-23.5500",
         "lng": "-46.6333"
     },
@@ -402,6 +459,7 @@
         "city": "Berlin",
         "country": "Germany",
         "footprint (Mt CO2)": "33.5",
+        "global ranking": 64,
         "lat": "52.5200",
         "lng": "13.4050"
     },
@@ -409,6 +467,7 @@
         "city": "Manchester",
         "country": "UK",
         "footprint (Mt CO2)": "33.2",
+        "global ranking": 65,
         "lat": "53.4790",
         "lng": "-2.2452"
     },
@@ -416,6 +475,7 @@
         "city": "Minneapolis",
         "country": "USA",
         "footprint (Mt CO2)": "33.0",
+        "global ranking": 66,
         "lat": "44.9635",
         "lng": "-93.2678"
     },
@@ -423,6 +483,7 @@
         "city": "Zhengzhou",
         "country": "China",
         "footprint (Mt CO2)": "32.7",
+        "global ranking": 67,
         "lat": "34.7640",
         "lng": "113.6840"
     },
@@ -430,6 +491,7 @@
         "city": "Chongqing",
         "country": "China",
         "footprint (Mt CO2)": "32.6",
+        "global ranking": 68,
         "lat": "29.5637",
         "lng": "106.5504"
     },
@@ -437,6 +499,7 @@
         "city": "Doha",
         "country": "Qatar",
         "footprint (Mt CO2)": "32.4",
+        "global ranking": 69,
         "lat": "25.2867",
         "lng": "51.5333"
     },
@@ -444,6 +507,7 @@
         "city": "Mumbai",
         "country": "India",
         "footprint (Mt CO2)": "32.1",
+        "global ranking": 70,
         "lat": "19.0761",
         "lng": "72.8775"
     },
@@ -451,6 +515,7 @@
         "city": "Wenzhou",
         "country": "China",
         "footprint (Mt CO2)": "31.7",
+        "global ranking": 72,
         "lat": "27.9938",
         "lng": "120.6993"
     },
@@ -458,6 +523,7 @@
         "city": "Quanzhou",
         "country": "China",
         "footprint (Mt CO2)": "31.5",
+        "global ranking": 73,
         "lat": "24.8744",
         "lng": "118.6757"
     },
@@ -465,6 +531,7 @@
         "city": "Brisbane",
         "country": "Australia",
         "footprint (Mt CO2)": "31.4",
+        "global ranking": 74,
         "lat": "-27.4678",
         "lng": "153.0281"
     },
@@ -472,6 +539,7 @@
         "city": "Dalian",
         "country": "China",
         "footprint (Mt CO2)": "30.9",
+        "global ranking": 75,
         "lat": "38.9000",
         "lng": "121.6000"
     },
@@ -479,6 +547,7 @@
         "city": "Tel Aviv-Yafo",
         "country": "Israel",
         "footprint (Mt CO2)": "30.6",
+        "global ranking": 76,
         "lat": "32.0800",
         "lng": "34.7800"
     },
@@ -486,6 +555,7 @@
         "city": "Milan",
         "country": "Italy",
         "footprint (Mt CO2)": "30.4",
+        "global ranking": 77,
         "lat": "45.4669",
         "lng": "9.1900"
     },
@@ -493,6 +563,7 @@
         "city": "Abu Dhabi",
         "country": "UAE",
         "footprint (Mt CO2)": "29.9",
+        "global ranking": 78,
         "lat": "24.4667",
         "lng": "54.3667"
     },
@@ -500,6 +571,7 @@
         "city": "Saint Petersburg",
         "country": "Russia",
         "footprint (Mt CO2)": "29.6",
+        "global ranking": 79,
         "lat": "59.9375",
         "lng": "30.3086"
     },
@@ -507,6 +579,7 @@
         "city": "Ankara",
         "country": "Turkey",
         "footprint (Mt CO2)": "29.3",
+        "global ranking": 80,
         "lat": "39.9300",
         "lng": "32.8500"
     },
@@ -514,6 +587,7 @@
         "city": "Qingdao",
         "country": "China",
         "footprint (Mt CO2)": "29.2",
+        "global ranking": 81,
         "lat": "36.0669",
         "lng": "120.3827"
     },
@@ -521,6 +595,7 @@
         "city": "Nagoya",
         "country": "Japan",
         "footprint (Mt CO2)": "28.8",
+        "global ranking": 82,
         "lat": "35.1833",
         "lng": "136.9000"
     },
@@ -528,6 +603,7 @@
         "city": "Montreal",
         "country": "Canada",
         "footprint (Mt CO2)": "28.3",
+        "global ranking": 83,
         "lat": "45.5089",
         "lng": "-73.5617"
     },
@@ -535,6 +611,7 @@
         "city": "St. Louis",
         "country": "USA",
         "footprint (Mt CO2)": "28.3",
+        "global ranking": 84,
         "lat": "38.6359",
         "lng": "-90.2451"
     },
@@ -542,6 +619,7 @@
         "city": "San Diego",
         "country": "USA",
         "footprint (Mt CO2)": "28.1",
+        "global ranking": 85,
         "lat": "32.8313",
         "lng": "-117.1222"
     },
@@ -549,6 +627,7 @@
         "city": "Jinan",
         "country": "China",
         "footprint (Mt CO2)": "28.0",
+        "global ranking": 86,
         "lat": "36.6702",
         "lng": "117.0207"
     },
@@ -556,6 +635,7 @@
         "city": "Santiago",
         "country": "Chile",
         "footprint (Mt CO2)": "27.3",
+        "global ranking": 87,
         "lat": "-33.4372",
         "lng": "-70.6506"
     },
@@ -563,6 +643,7 @@
         "city": "Rotterdam",
         "country": "Netherlands",
         "footprint (Mt CO2)": "27.1",
+        "global ranking": 88,
         "lat": "51.9200",
         "lng": "4.4800"
     },
@@ -570,6 +651,7 @@
         "city": "Cape Town",
         "country": "South Africa",
         "footprint (Mt CO2)": "26.8",
+        "global ranking": 89,
         "lat": "-33.9253",
         "lng": "18.4239"
     },
@@ -577,6 +659,7 @@
         "city": "Hyderabad",
         "country": "India",
         "footprint (Mt CO2)": "26.5",
+        "global ranking": 90,
         "lat": "17.3617",
         "lng": "78.4747"
     },
@@ -584,6 +667,7 @@
         "city": "Ho Chi Minh City",
         "country": "Viet Nam",
         "footprint (Mt CO2)": "26.3",
+        "global ranking": 91,
         "lat": "10.7756",
         "lng": "106.7019"
     },
@@ -591,6 +675,7 @@
         "city": "Barcelona",
         "country": "Spain",
         "footprint (Mt CO2)": "26.1",
+        "global ranking": 92,
         "lat": "41.3828",
         "lng": "2.1769"
     },
@@ -598,6 +683,7 @@
         "city": "Baltimore",
         "country": "USA",
         "footprint (Mt CO2)": "25.4",
+        "global ranking": 93,
         "lat": "39.3051",
         "lng": "-76.6144"
     },
@@ -605,6 +691,7 @@
         "city": "Changchun",
         "country": "China",
         "footprint (Mt CO2)": "25.2",
+        "global ranking": 94,
         "lat": "43.8970",
         "lng": "125.3260"
     },
@@ -612,6 +699,7 @@
         "city": "Almaty",
         "country": "Kazakhstan",
         "footprint (Mt CO2)": "25.2",
+        "global ranking": 95,
         "lat": "43.2400",
         "lng": "76.9150"
     },
@@ -619,6 +707,7 @@
         "city": "Birmingham",
         "country": "UK",
         "footprint (Mt CO2)": "25.1",
+        "global ranking": 96,
         "lat": "52.4800",
         "lng": "-1.9025"
     },
@@ -626,6 +715,7 @@
         "city": "Hefei",
         "country": "China",
         "footprint (Mt CO2)": "24.9",
+        "global ranking": 97,
         "lat": "31.8206",
         "lng": "117.2273"
     },
@@ -633,6 +723,7 @@
         "city": "Shijiazhuang",
         "country": "China",
         "footprint (Mt CO2)": "24.9",
+        "global ranking": 98,
         "lat": "38.0425",
         "lng": "114.5100"
     },
@@ -640,6 +731,7 @@
         "city": "Harbin",
         "country": "China",
         "footprint (Mt CO2)": "24.1",
+        "global ranking": 99,
         "lat": "45.7576",
         "lng": "126.6409"
     },
@@ -647,6 +739,7 @@
         "city": "Cleveland",
         "country": "USA",
         "footprint (Mt CO2)": "24.0",
+        "global ranking": 100,
         "lat": "41.4764",
         "lng": "-81.6805"
     },
@@ -654,6 +747,7 @@
         "city": "Durban",
         "country": "South Africa",
         "footprint (Mt CO2)": "23.7",
+        "global ranking": 102,
         "lat": "-29.8833",
         "lng": "31.0500"
     },
@@ -661,6 +755,7 @@
         "city": "Las Vegas",
         "country": "USA",
         "footprint (Mt CO2)": "23.5",
+        "global ranking": 103,
         "lat": "36.2333",
         "lng": "-115.2654"
     },
@@ -668,6 +763,7 @@
         "city": "Lima",
         "country": "Peru",
         "footprint (Mt CO2)": "23.2",
+        "global ranking": 104,
         "lat": "-12.0600",
         "lng": "-77.0375"
     },
@@ -675,6 +771,7 @@
         "city": "Mashhad",
         "country": "Iran",
         "footprint (Mt CO2)": "22.8",
+        "global ranking": 105,
         "lat": "36.3264",
         "lng": "59.5433"
     },
@@ -682,6 +779,7 @@
         "city": "Kansas City",
         "country": "USA",
         "footprint (Mt CO2)": "22.7",
+        "global ranking": 106,
         "lat": "39.1238",
         "lng": "-94.5541"
     },
@@ -689,6 +787,7 @@
         "city": "Guiyang",
         "country": "China",
         "footprint (Mt CO2)": "22.3",
+        "global ranking": 107,
         "lat": "26.6470",
         "lng": "106.6300"
     },
@@ -696,6 +795,7 @@
         "city": "Chennai",
         "country": "India",
         "footprint (Mt CO2)": "21.8",
+        "global ranking": 108,
         "lat": "13.0825",
         "lng": "80.2750"
     },
@@ -703,6 +803,7 @@
         "city": "Caracas",
         "country": "Venezuela",
         "footprint (Mt CO2)": "21.6",
+        "global ranking": 109,
         "lat": "10.4806",
         "lng": "-66.9036"
     },
@@ -710,6 +811,7 @@
         "city": "Bangalore",
         "country": "India",
         "footprint (Mt CO2)": "21.6",
+        "global ranking": 110,
         "lat": "12.9789",
         "lng": "77.5917"
     },
@@ -717,6 +819,7 @@
         "city": "Orlando",
         "country": "USA",
         "footprint (Mt CO2)": "21.1",
+        "global ranking": 111,
         "lat": "28.4773",
         "lng": "-81.3370"
     },
@@ -724,6 +827,7 @@
         "city": "Baghdad",
         "country": "Iraq",
         "footprint (Mt CO2)": "21.1",
+        "global ranking": 112,
         "lat": "33.3153",
         "lng": "44.3661"
     },
@@ -731,6 +835,7 @@
         "city": "Sacramento",
         "country": "USA",
         "footprint (Mt CO2)": "21.1",
+        "global ranking": 113,
         "lat": "38.5677",
         "lng": "-121.4685"
     },
@@ -738,6 +843,7 @@
         "city": "Bogota",
         "country": "Colombia",
         "footprint (Mt CO2)": "20.5",
+        "global ranking": 114,
         "lat": "4.7111",
         "lng": "-74.0722"
     },
@@ -745,6 +851,7 @@
         "city": "Urumqi",
         "country": "China",
         "footprint (Mt CO2)": "20.3",
+        "global ranking": 116,
         "lat": "43.8225",
         "lng": "87.6125"
     },
@@ -752,6 +859,7 @@
         "city": "Vienna",
         "country": "Austria",
         "footprint (Mt CO2)": "20.2",
+        "global ranking": 117,
         "lat": "48.2083",
         "lng": "16.3725"
     },
@@ -759,6 +867,7 @@
         "city": "Manila",
         "country": "Philippines",
         "footprint (Mt CO2)": "20.0",
+        "global ranking": 118,
         "lat": "14.5958",
         "lng": "120.9772"
     },
@@ -766,6 +875,7 @@
         "city": "Columbus",
         "country": "USA",
         "footprint (Mt CO2)": "19.9",
+        "global ranking": 119,
         "lat": "39.9862",
         "lng": "-82.9855"
     },
@@ -773,6 +883,7 @@
         "city": "Esfahan",
         "country": "Iran",
         "footprint (Mt CO2)": "19.8",
+        "global ranking": 120,
         "lat": "32.6447",
         "lng": "51.6675"
     },
@@ -780,6 +891,7 @@
         "city": "Sitrah",
         "country": "Bahrain",
         "footprint (Mt CO2)": "19.4",
+        "global ranking": 121,
         "lat": "26.1200",
         "lng": "50.6500"
     },
@@ -787,6 +899,7 @@
         "city": "Portland",
         "country": "USA",
         "footprint (Mt CO2)": "19.4",
+        "global ranking": 122,
         "lat": "45.5371",
         "lng": "-122.6500"
     },
@@ -794,6 +907,7 @@
         "city": "Indianapolis",
         "country": "USA",
         "footprint (Mt CO2)": "19.4",
+        "global ranking": 123,
         "lat": "39.7771",
         "lng": "-86.1458"
     },
@@ -801,6 +915,7 @@
         "city": "Zibo",
         "country": "China",
         "footprint (Mt CO2)": "19.3",
+        "global ranking": 124,
         "lat": "36.8138",
         "lng": "118.0550"
     },
@@ -808,6 +923,7 @@
         "city": "San Antonio",
         "country": "USA",
         "footprint (Mt CO2)": "19.2",
+        "global ranking": 125,
         "lat": "29.4632",
         "lng": "-98.5238"
     },
@@ -815,6 +931,7 @@
         "city": "Chifeng",
         "country": "China",
         "footprint (Mt CO2)": "19.0",
+        "global ranking": 128,
         "lat": "42.2570",
         "lng": "118.8880"
     },
@@ -822,6 +939,7 @@
         "city": "Hamburg",
         "country": "Germany",
         "footprint (Mt CO2)": "19.0",
+        "global ranking": 129,
         "lat": "53.5500",
         "lng": "10.0000"
     },
@@ -829,6 +947,7 @@
         "city": "Pune",
         "country": "India",
         "footprint (Mt CO2)": "18.9",
+        "global ranking": 130,
         "lat": "18.5203",
         "lng": "73.8567"
     },
@@ -836,6 +955,7 @@
         "city": "Mecca",
         "country": "Saudi Arabia",
         "footprint (Mt CO2)": "17.9",
+        "global ranking": 134,
         "lat": "21.4225",
         "lng": "39.8233"
     },
@@ -843,6 +963,7 @@
         "city": "Vancouver",
         "country": "Canada",
         "footprint (Mt CO2)": "17.5",
+        "global ranking": 135,
         "lat": "49.2500",
         "lng": "-123.1000"
     },
@@ -850,6 +971,7 @@
         "city": "Xiamen",
         "country": "China",
         "footprint (Mt CO2)": "17.3",
+        "global ranking": 137,
         "lat": "24.4796",
         "lng": "118.0889"
     },
@@ -857,6 +979,7 @@
         "city": "Ningbo",
         "country": "China",
         "footprint (Mt CO2)": "17.1",
+        "global ranking": 139,
         "lat": "29.8603",
         "lng": "121.6245"
     },
@@ -864,6 +987,7 @@
         "city": "T'aichung",
         "country": "Taiwan",
         "footprint (Mt CO2)": "17.0",
+        "global ranking": 140,
         "lat": "24.1439",
         "lng": "120.6794"
     },
@@ -871,6 +995,7 @@
         "city": "Kunming",
         "country": "China",
         "footprint (Mt CO2)": "16.9",
+        "global ranking": 141,
         "lat": "25.0464",
         "lng": "102.7094"
     },
@@ -878,6 +1003,7 @@
         "city": "Milwaukee",
         "country": "USA",
         "footprint (Mt CO2)": "16.8",
+        "global ranking": 142,
         "lat": "43.0642",
         "lng": "-87.9675"
     },
@@ -885,6 +1011,7 @@
         "city": "Tangshan",
         "country": "China",
         "footprint (Mt CO2)": "16.8",
+        "global ranking": 143,
         "lat": "39.6294",
         "lng": "118.1739"
     },
@@ -892,6 +1019,7 @@
         "city": "Rio de Janeiro",
         "country": "Brazil",
         "footprint (Mt CO2)": "16.7",
+        "global ranking": 144,
         "lat": "-22.9111",
         "lng": "-43.2056"
     },
@@ -899,6 +1027,7 @@
         "city": "St. Petersburg",
         "country": "USA",
         "footprint (Mt CO2)": "16.7",
+        "global ranking": 145,
         "lat": "27.7931",
         "lng": "-82.6652"
     },
@@ -906,6 +1035,7 @@
         "city": "Monterrey",
         "country": "Mexico",
         "footprint (Mt CO2)": "16.6",
+        "global ranking": 146,
         "lat": "25.6667",
         "lng": "-100.3000"
     },
@@ -913,6 +1043,7 @@
         "city": "Changsha",
         "country": "China",
         "footprint (Mt CO2)": "16.3",
+        "global ranking": 147,
         "lat": "28.2280",
         "lng": "112.9390"
     },
@@ -920,6 +1051,7 @@
         "city": "Hanoi",
         "country": "Viet Nam",
         "footprint (Mt CO2)": "16.1",
+        "global ranking": 148,
         "lat": "21.0000",
         "lng": "105.8500"
     },
@@ -927,6 +1059,7 @@
         "city": "Rome",
         "country": "Italy",
         "footprint (Mt CO2)": "16.1",
+        "global ranking": 149,
         "lat": "41.8933",
         "lng": "12.4828"
     },
@@ -934,6 +1067,7 @@
         "city": "Ningbo",
         "country": "China",
         "footprint (Mt CO2)": "15.7",
+        "global ranking": 150,
         "lat": "29.8603",
         "lng": "121.6245"
     },
@@ -941,6 +1075,7 @@
         "city": "Taizhou",
         "country": "China",
         "footprint (Mt CO2)": "15.6",
+        "global ranking": 151,
         "lat": "32.4567",
         "lng": "119.9229"
     },
@@ -948,6 +1083,7 @@
         "city": "New Orleans",
         "country": "USA",
         "footprint (Mt CO2)": "15.6",
+        "global ranking": 152,
         "lat": "30.0687",
         "lng": "-89.9288"
     },
@@ -955,6 +1091,7 @@
         "city": "Ulsan",
         "country": "South Korea",
         "footprint (Mt CO2)": "15.4",
+        "global ranking": 155,
         "lat": "35.5500",
         "lng": "129.3167"
     },
@@ -962,6 +1099,7 @@
         "city": "Naples",
         "country": "Italy",
         "footprint (Mt CO2)": "15.3",
+        "global ranking": 156,
         "lat": "40.8333",
         "lng": "14.2500"
     },
@@ -969,6 +1107,7 @@
         "city": "Guadalajara",
         "country": "Mexico",
         "footprint (Mt CO2)": "15.1",
+        "global ranking": 158,
         "lat": "20.6767",
         "lng": "-103.3475"
     },
@@ -976,6 +1115,7 @@
         "city": "Novosibirsk",
         "country": "Russia",
         "footprint (Mt CO2)": "15.0",
+        "global ranking": 160,
         "lat": "55.0500",
         "lng": "82.9500"
     },
@@ -983,6 +1123,7 @@
         "city": "Dhaka",
         "country": "Bangladesh",
         "footprint (Mt CO2)": "15.0",
+        "global ranking": 161,
         "lat": "23.7639",
         "lng": "90.3889"
     },
@@ -990,6 +1131,7 @@
         "city": "Bandung",
         "country": "Indonesia",
         "footprint (Mt CO2)": "14.9",
+        "global ranking": 162,
         "lat": "-6.9120",
         "lng": "107.6097"
     },
@@ -997,6 +1139,7 @@
         "city": "Calgary",
         "country": "Canada",
         "footprint (Mt CO2)": "14.9",
+        "global ranking": 163,
         "lat": "51.0500",
         "lng": "-114.0667"
     },
@@ -1004,6 +1147,7 @@
         "city": "Fuzhou",
         "country": "China",
         "footprint (Mt CO2)": "14.7",
+        "global ranking": 164,
         "lat": "27.9490",
         "lng": "116.3580"
     },
@@ -1011,6 +1155,7 @@
         "city": "Pittsburgh",
         "country": "USA",
         "footprint (Mt CO2)": "14.5",
+        "global ranking": 165,
         "lat": "40.4397",
         "lng": "-79.9763"
     },
@@ -1018,6 +1163,7 @@
         "city": "Austin",
         "country": "USA",
         "footprint (Mt CO2)": "14.4",
+        "global ranking": 166,
         "lat": "30.3005",
         "lng": "-97.7522"
     },
@@ -1025,6 +1171,7 @@
         "city": "Amman",
         "country": "Jordan",
         "footprint (Mt CO2)": "14.3",
+        "global ranking": 167,
         "lat": "31.9497",
         "lng": "35.9328"
     },
@@ -1032,6 +1179,7 @@
         "city": "Tongliao",
         "country": "China",
         "footprint (Mt CO2)": "14.3",
+        "global ranking": 168,
         "lat": "43.6540",
         "lng": "122.2430"
     },
@@ -1039,6 +1187,7 @@
         "city": "Salt Lake City",
         "country": "USA",
         "footprint (Mt CO2)": "14.3",
+        "global ranking": 169,
         "lat": "40.7776",
         "lng": "-111.9311"
     },
@@ -1046,6 +1195,7 @@
         "city": "Medina",
         "country": "Saudi Arabia",
         "footprint (Mt CO2)": "14.1",
+        "global ranking": 170,
         "lat": "24.4700",
         "lng": "39.6100"
     },
@@ -1053,6 +1203,7 @@
         "city": "Adelaide",
         "country": "Australia",
         "footprint (Mt CO2)": "14.1",
+        "global ranking": 171,
         "lat": "-34.9275",
         "lng": "138.6000"
     },
@@ -1060,6 +1211,7 @@
         "city": "Luoyang",
         "country": "China",
         "footprint (Mt CO2)": "13.7",
+        "global ranking": 173,
         "lat": "34.6197",
         "lng": "112.4539"
     },
@@ -1067,6 +1219,7 @@
         "city": "Warsaw",
         "country": "Poland",
         "footprint (Mt CO2)": "13.4",
+        "global ranking": 174,
         "lat": "52.2300",
         "lng": "21.0111"
     },
@@ -1074,6 +1227,7 @@
         "city": "Changzhou",
         "country": "China",
         "footprint (Mt CO2)": "13.2",
+        "global ranking": 175,
         "lat": "31.8110",
         "lng": "119.9740"
     },
@@ -1081,6 +1235,7 @@
         "city": "Chelyabinsk",
         "country": "Russia",
         "footprint (Mt CO2)": "13.2",
+        "global ranking": 176,
         "lat": "55.1547",
         "lng": "61.3758"
     },
@@ -1088,6 +1243,7 @@
         "city": "Omsk",
         "country": "Russia",
         "footprint (Mt CO2)": "13.1",
+        "global ranking": 177,
         "lat": "54.9833",
         "lng": "73.3667"
     },
@@ -1095,6 +1251,7 @@
         "city": "Astana",
         "country": "Kazakhstan",
         "footprint (Mt CO2)": "12.9",
+        "global ranking": 178,
         "lat": "51.1472",
         "lng": "71.4222"
     },
@@ -1102,6 +1259,7 @@
         "city": "Norfolk",
         "country": "USA",
         "footprint (Mt CO2)": "12.8",
+        "global ranking": 180,
         "lat": "36.8945",
         "lng": "-76.2590"
     },
@@ -1109,6 +1267,7 @@
         "city": "Fushun",
         "country": "China",
         "footprint (Mt CO2)": "12.8",
+        "global ranking": 181,
         "lat": "41.8810",
         "lng": "123.9570"
     },
@@ -1116,6 +1275,7 @@
         "city": "Anshan",
         "country": "China",
         "footprint (Mt CO2)": "12.5",
+        "global ranking": 182,
         "lat": "41.1080",
         "lng": "122.9940"
     },
@@ -1123,6 +1283,7 @@
         "city": "Louisville",
         "country": "USA",
         "footprint (Mt CO2)": "12.3",
+        "global ranking": 183,
         "lat": "38.1663",
         "lng": "-85.6485"
     },
@@ -1130,6 +1291,7 @@
         "city": "Tabriz",
         "country": "Iran",
         "footprint (Mt CO2)": "12.3",
+        "global ranking": 184,
         "lat": "38.0814",
         "lng": "46.3006"
     },
@@ -1137,6 +1299,7 @@
         "city": "Ahmadabad",
         "country": "India",
         "footprint (Mt CO2)": "12.2",
+        "global ranking": 185,
         "lat": "25.3019",
         "lng": "87.7938"
     },
@@ -1144,6 +1307,7 @@
         "city": "Edmonton",
         "country": "Canada",
         "footprint (Mt CO2)": "12.1",
+        "global ranking": 187,
         "lat": "53.5344",
         "lng": "-113.4903"
     },
@@ -1151,6 +1315,7 @@
         "city": "Kazan'",
         "country": "Russia",
         "footprint (Mt CO2)": "11.9",
+        "global ranking": 188,
         "lat": "55.7964",
         "lng": "49.1089"
     },
@@ -1158,6 +1323,7 @@
         "city": "Munich",
         "country": "Germany",
         "footprint (Mt CO2)": "11.8",
+        "global ranking": 189,
         "lat": "48.1375",
         "lng": "11.5750"
     },
@@ -1165,6 +1331,7 @@
         "city": "Cincinnati",
         "country": "USA",
         "footprint (Mt CO2)": "11.8",
+        "global ranking": 190,
         "lat": "39.1413",
         "lng": "-84.5060"
     },
@@ -1172,6 +1339,7 @@
         "city": "Lanzhou",
         "country": "China",
         "footprint (Mt CO2)": "11.7",
+        "global ranking": 192,
         "lat": "36.0606",
         "lng": "103.8268"
     },
@@ -1179,6 +1347,7 @@
         "city": "Ahvaz",
         "country": "Iran",
         "footprint (Mt CO2)": "11.6",
+        "global ranking": 193,
         "lat": "31.3047",
         "lng": "48.6783"
     },
@@ -1186,6 +1355,7 @@
         "city": "Semarang",
         "country": "Indonesia",
         "footprint (Mt CO2)": "11.5",
+        "global ranking": 194,
         "lat": "-6.9900",
         "lng": "110.4225"
     },
@@ -1193,6 +1363,7 @@
         "city": "Copenhagen",
         "country": "Denmark",
         "footprint (Mt CO2)": "11.4",
+        "global ranking": 197,
         "lat": "55.6761",
         "lng": "12.5683"
     },
@@ -1200,6 +1371,7 @@
         "city": "Buffalo",
         "country": "USA",
         "footprint (Mt CO2)": "11.3",
+        "global ranking": 200,
         "lat": "42.9018",
         "lng": "-78.8487"
     },
@@ -1207,6 +1379,7 @@
         "city": "Oklahoma City",
         "country": "USA",
         "footprint (Mt CO2)": "11.1",
+        "global ranking": 202,
         "lat": "35.4676",
         "lng": "-97.5136"
     },
@@ -1214,6 +1387,7 @@
         "city": "San Cristobal",
         "country": "Dominican Republic",
         "footprint (Mt CO2)": "11.0",
+        "global ranking": 203,
         "lat": "18.4167",
         "lng": "-70.1056"
     },
@@ -1221,6 +1395,7 @@
         "city": "Amsterdam",
         "country": "Netherlands",
         "footprint (Mt CO2)": "11.0",
+        "global ranking": 204,
         "lat": "52.3728",
         "lng": "4.8936"
     },
@@ -1228,6 +1403,7 @@
         "city": "Bucharest",
         "country": "Romania",
         "footprint (Mt CO2)": "11.0",
+        "global ranking": 205,
         "lat": "44.4325",
         "lng": "26.1039"
     },
@@ -1235,6 +1411,7 @@
         "city": "Weifang",
         "country": "China",
         "footprint (Mt CO2)": "10.9",
+        "global ranking": 206,
         "lat": "36.7080",
         "lng": "119.1620"
     },
@@ -1242,6 +1419,7 @@
         "city": "Hartford",
         "country": "USA",
         "footprint (Mt CO2)": "10.8",
+        "global ranking": 207,
         "lat": "41.7661",
         "lng": "-72.6834"
     },
@@ -1249,6 +1427,7 @@
         "city": "Maracaibo",
         "country": "Venezuela",
         "footprint (Mt CO2)": "10.8",
+        "global ranking": 208,
         "lat": "10.6333",
         "lng": "-71.6333"
     },
@@ -1256,6 +1435,7 @@
         "city": "Lahore",
         "country": "Pakistan",
         "footprint (Mt CO2)": "10.6",
+        "global ranking": 209,
         "lat": "31.5497",
         "lng": "74.3436"
     },
@@ -1263,6 +1443,7 @@
         "city": "Budapest",
         "country": "Hungary",
         "footprint (Mt CO2)": "10.6",
+        "global ranking": 210,
         "lat": "47.4925",
         "lng": "19.0514"
     },
@@ -1270,6 +1451,7 @@
         "city": "Ashgabat",
         "country": "Turkmenistan",
         "footprint (Mt CO2)": "10.5",
+        "global ranking": 211,
         "lat": "37.9375",
         "lng": "58.3800"
     },
@@ -1277,6 +1459,7 @@
         "city": "Tampa",
         "country": "USA",
         "footprint (Mt CO2)": "10.5",
+        "global ranking": 212,
         "lat": "27.9945",
         "lng": "-82.4447"
     },
@@ -1284,6 +1467,7 @@
         "city": "Nanchang",
         "country": "China",
         "footprint (Mt CO2)": "10.4",
+        "global ranking": 214,
         "lat": "28.6830",
         "lng": "115.8580"
     },
@@ -1291,6 +1475,7 @@
         "city": "Medan",
         "country": "Indonesia",
         "footprint (Mt CO2)": "10.4",
+        "global ranking": 215,
         "lat": "3.5894",
         "lng": "98.6739"
     },
@@ -1298,6 +1483,7 @@
         "city": "Changwon",
         "country": "South Korea",
         "footprint (Mt CO2)": "10.4",
+        "global ranking": 217,
         "lat": "35.2708",
         "lng": "128.6631"
     },
@@ -1305,6 +1491,7 @@
         "city": "Frankfurt",
         "country": "Germany",
         "footprint (Mt CO2)": "10.4",
+        "global ranking": 218,
         "lat": "50.1106",
         "lng": "8.6822"
     },
@@ -1312,6 +1499,7 @@
         "city": "Brussels",
         "country": "Belgium",
         "footprint (Mt CO2)": "10.2",
+        "global ranking": 220,
         "lat": "50.8467",
         "lng": "4.3525"
     },
@@ -1319,6 +1507,7 @@
         "city": "Krasnoyarsk",
         "country": "Russia",
         "footprint (Mt CO2)": "10.2",
+        "global ranking": 221,
         "lat": "56.0089",
         "lng": "92.8719"
     },
@@ -1326,6 +1515,7 @@
         "city": "Jinzhou",
         "country": "China",
         "footprint (Mt CO2)": "10.2",
+        "global ranking": 222,
         "lat": "41.1290",
         "lng": "121.1480"
     },
@@ -1333,6 +1523,7 @@
         "city": "Katowice",
         "country": "Poland",
         "footprint (Mt CO2)": "10.1",
+        "global ranking": 223,
         "lat": "50.2625",
         "lng": "19.0217"
     },
@@ -1340,6 +1531,7 @@
         "city": "Providence",
         "country": "USA",
         "footprint (Mt CO2)": "10.1",
+        "global ranking": 226,
         "lat": "41.8230",
         "lng": "-71.4187"
     },
@@ -1347,6 +1539,7 @@
         "city": "Voronezh",
         "country": "Russia",
         "footprint (Mt CO2)": "10.0",
+        "global ranking": 227,
         "lat": "51.6717",
         "lng": "39.2106"
     },
@@ -1354,6 +1547,7 @@
         "city": "Ch'ungju",
         "country": "South Korea",
         "footprint (Mt CO2)": "9.9",
+        "global ranking": 228,
         "lat": "36.9667",
         "lng": "127.9500"
     },
@@ -1361,6 +1555,7 @@
         "city": "Jilin",
         "country": "China",
         "footprint (Mt CO2)": "9.8",
+        "global ranking": 229,
         "lat": "43.8519",
         "lng": "126.5481"
     },
@@ -1368,6 +1563,7 @@
         "city": "Kyiv",
         "country": "Ukraine",
         "footprint (Mt CO2)": "9.8",
+        "global ranking": 230,
         "lat": "50.4500",
         "lng": "30.5233"
     },
@@ -1375,6 +1571,7 @@
         "city": "Shiraz",
         "country": "Iran",
         "footprint (Mt CO2)": "9.8",
+        "global ranking": 231,
         "lat": "29.6100",
         "lng": "52.5425"
     },
@@ -1382,6 +1579,7 @@
         "city": "Omaha",
         "country": "USA",
         "footprint (Mt CO2)": "9.6",
+        "global ranking": 232,
         "lat": "41.2627",
         "lng": "-96.0529"
     },
@@ -1389,6 +1587,7 @@
         "city": "Valencia",
         "country": "Venezuela",
         "footprint (Mt CO2)": "9.5",
+        "global ranking": 233,
         "lat": "10.1833",
         "lng": "-68.0000"
     },
@@ -1396,6 +1595,7 @@
         "city": "Quito",
         "country": "Ecuador",
         "footprint (Mt CO2)": "9.5",
+        "global ranking": 235,
         "lat": "-0.2200",
         "lng": "-78.5125"
     },
@@ -1403,6 +1603,7 @@
         "city": "Ondorhaan",
         "country": "Mongolia",
         "footprint (Mt CO2)": "9.4",
+        "global ranking": 237,
         "lat": "47.3233",
         "lng": "110.6611"
     },
@@ -1410,6 +1611,7 @@
         "city": "Jaipur",
         "country": "India",
         "footprint (Mt CO2)": "9.4",
+        "global ranking": 238,
         "lat": "26.9000",
         "lng": "75.8000"
     },
@@ -1417,6 +1619,7 @@
         "city": "Nanning",
         "country": "China",
         "footprint (Mt CO2)": "9.4",
+        "global ranking": 239,
         "lat": "22.8167",
         "lng": "108.3275"
     },
@@ -1424,6 +1627,7 @@
         "city": "Jacksonville",
         "country": "USA",
         "footprint (Mt CO2)": "9.4",
+        "global ranking": 240,
         "lat": "30.3322",
         "lng": "-81.6749"
     },
@@ -1431,6 +1635,7 @@
         "city": "Stuttgart",
         "country": "Germany",
         "footprint (Mt CO2)": "9.4",
+        "global ranking": 241,
         "lat": "48.7775",
         "lng": "9.1800"
     },
@@ -1438,6 +1643,7 @@
         "city": "Alexandria",
         "country": "Egypt",
         "footprint (Mt CO2)": "9.3",
+        "global ranking": 242,
         "lat": "31.1975",
         "lng": "29.8925"
     },
@@ -1445,6 +1651,7 @@
         "city": "Baoding",
         "country": "China",
         "footprint (Mt CO2)": "9.2",
+        "global ranking": 243,
         "lat": "38.8740",
         "lng": "115.4640"
     },
@@ -1452,6 +1659,7 @@
         "city": "Unknown city at lat/lon 32.1, 112.1",
         "country": "China",
         "footprint (Mt CO2)": "9.2",
+        "global ranking": 244,
         "lat": "32.1",
         "lng": "112.1"
     },
@@ -1459,6 +1667,7 @@
         "city": "Putian",
         "country": "China",
         "footprint (Mt CO2)": "9.2",
+        "global ranking": 245,
         "lat": "25.4526",
         "lng": "119.0078"
     },
@@ -1466,6 +1675,7 @@
         "city": "Curitiba",
         "country": "Brazil",
         "footprint (Mt CO2)": "9.2",
+        "global ranking": 246,
         "lat": "-25.4297",
         "lng": "-49.2711"
     },
@@ -1473,6 +1683,7 @@
         "city": "Dublin",
         "country": "Ireland",
         "footprint (Mt CO2)": "9.2",
+        "global ranking": 247,
         "lat": "53.3500",
         "lng": "-6.2603"
     },
@@ -1480,6 +1691,7 @@
         "city": "Stockholm",
         "country": "Sweden",
         "footprint (Mt CO2)": "9.1",
+        "global ranking": 249,
         "lat": "59.3294",
         "lng": "18.0686"
     },
@@ -1487,6 +1699,7 @@
         "city": "Liuzhou",
         "country": "China",
         "footprint (Mt CO2)": "9.1",
+        "global ranking": 250,
         "lat": "24.3264",
         "lng": "109.4281"
     },
@@ -1494,6 +1707,7 @@
         "city": "Belo Horizonte",
         "country": "Brazil",
         "footprint (Mt CO2)": "9.0",
+        "global ranking": 252,
         "lat": "-19.9167",
         "lng": "-43.9333"
     },
@@ -1501,6 +1715,7 @@
         "city": "Dongsheng",
         "country": "China",
         "footprint (Mt CO2)": "9.0",
+        "global ranking": 253,
         "lat": "22.8847",
         "lng": "113.4550"
     },
@@ -1508,6 +1723,7 @@
         "city": "Winnipeg",
         "country": "Canada",
         "footprint (Mt CO2)": "9.0",
+        "global ranking": 254,
         "lat": "49.8844",
         "lng": "-97.1464"
     },
@@ -1515,6 +1731,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "footprint (Mt CO2)": "9.0",
+        "global ranking": 255,
         "lat": "24.8600",
         "lng": "67.0100"
     },
@@ -1522,6 +1739,7 @@
         "city": "Tucson",
         "country": "USA",
         "footprint (Mt CO2)": "8.8",
+        "global ranking": 256,
         "lat": "32.1541",
         "lng": "-110.8787"
     },
@@ -1529,6 +1747,7 @@
         "city": "Chandigarh",
         "country": "India",
         "footprint (Mt CO2)": "8.8",
+        "global ranking": 257,
         "lat": "30.7500",
         "lng": "76.7800"
     },
@@ -1536,6 +1755,7 @@
         "city": "Ufa",
         "country": "Russia",
         "footprint (Mt CO2)": "8.8",
+        "global ranking": 258,
         "lat": "54.7261",
         "lng": "55.9475"
     },
@@ -1543,6 +1763,7 @@
         "city": "Tulsa",
         "country": "USA",
         "footprint (Mt CO2)": "8.7",
+        "global ranking": 259,
         "lat": "36.1283",
         "lng": "-95.9042"
     },
@@ -1550,6 +1771,7 @@
         "city": "Baku",
         "country": "Azerbaijan",
         "footprint (Mt CO2)": "8.7",
+        "global ranking": 260,
         "lat": "40.3953",
         "lng": "49.8822"
     },
@@ -1557,6 +1779,7 @@
         "city": "Unknown city at lat/lon 32.4, 119.4",
         "country": "China",
         "footprint (Mt CO2)": "8.7",
+        "global ranking": 261,
         "lat": "32.4",
         "lng": "119.4"
     },
@@ -1564,6 +1787,7 @@
         "city": "Fuxin",
         "country": "China",
         "footprint (Mt CO2)": "8.7",
+        "global ranking": 262,
         "lat": "42.0220",
         "lng": "121.6700"
     },
@@ -1571,6 +1795,7 @@
         "city": "Khabarovsk",
         "country": "Russia",
         "footprint (Mt CO2)": "8.7",
+        "global ranking": 263,
         "lat": "48.4833",
         "lng": "135.0833"
     },
@@ -1578,6 +1803,7 @@
         "city": "Dongyang",
         "country": "China",
         "footprint (Mt CO2)": "8.6",
+        "global ranking": 264,
         "lat": "29.2667",
         "lng": "120.2167"
     },
@@ -1585,6 +1811,7 @@
         "city": "Krasnodar",
         "country": "Russia",
         "footprint (Mt CO2)": "8.6",
+        "global ranking": 265,
         "lat": "45.0333",
         "lng": "38.9667"
     },
@@ -1592,6 +1819,7 @@
         "city": "Jiaozuo",
         "country": "China",
         "footprint (Mt CO2)": "8.6",
+        "global ranking": 266,
         "lat": "35.2157",
         "lng": "113.2419"
     },
@@ -1599,6 +1827,7 @@
         "city": "Sarasota",
         "country": "USA",
         "footprint (Mt CO2)": "8.6",
+        "global ranking": 267,
         "lat": "27.3387",
         "lng": "-82.5432"
     },
@@ -1606,6 +1835,7 @@
         "city": "Handan",
         "country": "China",
         "footprint (Mt CO2)": "8.5",
+        "global ranking": 268,
         "lat": "36.6010",
         "lng": "114.4870"
     },
@@ -1613,6 +1843,7 @@
         "city": "Lucknow",
         "country": "India",
         "footprint (Mt CO2)": "8.5",
+        "global ranking": 269,
         "lat": "26.8500",
         "lng": "80.9500"
     },
@@ -1620,6 +1851,7 @@
         "city": "Medellin",
         "country": "Colombia",
         "footprint (Mt CO2)": "8.4",
+        "global ranking": 271,
         "lat": "6.2308",
         "lng": "-75.5906"
     },
@@ -1627,6 +1859,7 @@
         "city": "Cordoba",
         "country": "Argentina",
         "footprint (Mt CO2)": "8.4",
+        "global ranking": 272,
         "lat": "-31.4167",
         "lng": "-64.1833"
     },
@@ -1634,6 +1867,7 @@
         "city": "Nagpur",
         "country": "India",
         "footprint (Mt CO2)": "8.3",
+        "global ranking": 273,
         "lat": "21.1497",
         "lng": "79.0806"
     },
@@ -1641,6 +1875,7 @@
         "city": "Lisbon",
         "country": "Portugal",
         "footprint (Mt CO2)": "8.3",
+        "global ranking": 276,
         "lat": "38.7253",
         "lng": "-9.1500"
     },
@@ -1648,6 +1883,7 @@
         "city": "Sheffield",
         "country": "UK",
         "footprint (Mt CO2)": "8.0",
+        "global ranking": 277,
         "lat": "53.3808",
         "lng": "-1.4703"
     },
@@ -1655,6 +1891,7 @@
         "city": "Linfen",
         "country": "China",
         "footprint (Mt CO2)": "8.0",
+        "global ranking": 278,
         "lat": "36.0880",
         "lng": "111.5190"
     },
@@ -1662,6 +1899,7 @@
         "city": "Ottawa",
         "country": "Canada",
         "footprint (Mt CO2)": "7.9",
+        "global ranking": 279,
         "lat": "45.4247",
         "lng": "-75.6950"
     },
@@ -1669,6 +1907,7 @@
         "city": "Zhuhai",
         "country": "China",
         "footprint (Mt CO2)": "7.9",
+        "global ranking": 280,
         "lat": "22.2716",
         "lng": "113.5769"
     },
@@ -1676,6 +1915,7 @@
         "city": "Liaoyang",
         "country": "China",
         "footprint (Mt CO2)": "7.9",
+        "global ranking": 282,
         "lat": "41.2790",
         "lng": "123.1760"
     },
@@ -1683,6 +1923,7 @@
         "city": "Nantong",
         "country": "China",
         "footprint (Mt CO2)": "7.9",
+        "global ranking": 283,
         "lat": "31.9810",
         "lng": "120.8940"
     },
@@ -1690,6 +1931,7 @@
         "city": "Puebla",
         "country": "Mexico",
         "footprint (Mt CO2)": "7.8",
+        "global ranking": 284,
         "lat": "19.0333",
         "lng": "-98.1833"
     },
@@ -1697,6 +1939,7 @@
         "city": "Antalya",
         "country": "Turkey",
         "footprint (Mt CO2)": "7.8",
+        "global ranking": 285,
         "lat": "36.8874",
         "lng": "30.7075"
     },
@@ -1704,6 +1947,7 @@
         "city": "Gold Coast",
         "country": "Australia",
         "footprint (Mt CO2)": "7.8",
+        "global ranking": 286,
         "lat": "-28.0167",
         "lng": "153.4000"
     },
@@ -1711,6 +1955,7 @@
         "city": "Oakland",
         "country": "USA",
         "footprint (Mt CO2)": "7.7",
+        "global ranking": 287,
         "lat": "37.7904",
         "lng": "-122.2166"
     },
@@ -1718,6 +1963,7 @@
         "city": "Qinhuangdao",
         "country": "China",
         "footprint (Mt CO2)": "7.7",
+        "global ranking": 288,
         "lat": "39.8882",
         "lng": "119.5202"
     },
@@ -1725,6 +1971,7 @@
         "city": "Fresno",
         "country": "USA",
         "footprint (Mt CO2)": "7.6",
+        "global ranking": 289,
         "lat": "36.7830",
         "lng": "-119.7939"
     },
@@ -1732,6 +1979,7 @@
         "city": "Changzhi",
         "country": "China",
         "footprint (Mt CO2)": "7.6",
+        "global ranking": 290,
         "lat": "36.1950",
         "lng": "113.1170"
     },
@@ -1739,6 +1987,7 @@
         "city": "Indore",
         "country": "India",
         "footprint (Mt CO2)": "7.5",
+        "global ranking": 291,
         "lat": "22.7167",
         "lng": "75.8472"
     },
@@ -1746,6 +1995,7 @@
         "city": "Turin",
         "country": "Italy",
         "footprint (Mt CO2)": "7.5",
+        "global ranking": 292,
         "lat": "45.0792",
         "lng": "7.6761"
     },
@@ -1753,6 +2003,7 @@
         "city": "Volgograd",
         "country": "Russia",
         "footprint (Mt CO2)": "7.5",
+        "global ranking": 293,
         "lat": "48.7086",
         "lng": "44.5147"
     },
@@ -1760,6 +2011,7 @@
         "city": "Unknown city at lat/lon 37.8, 113.5",
         "country": "China",
         "footprint (Mt CO2)": "7.4",
+        "global ranking": 294,
         "lat": "37.8",
         "lng": "113.5"
     },
@@ -1767,6 +2019,7 @@
         "city": "Porto Alegre",
         "country": "Brazil",
         "footprint (Mt CO2)": "7.4",
+        "global ranking": 295,
         "lat": "-30.0331",
         "lng": "-51.2300"
     },
@@ -1774,6 +2027,7 @@
         "city": "Saratov",
         "country": "Russia",
         "footprint (Mt CO2)": "7.3",
+        "global ranking": 296,
         "lat": "51.5333",
         "lng": "46.0167"
     },
@@ -1781,6 +2035,7 @@
         "city": "Albuquerque",
         "country": "USA",
         "footprint (Mt CO2)": "7.3",
+        "global ranking": 297,
         "lat": "35.1054",
         "lng": "-106.6465"
     },
@@ -1788,6 +2043,7 @@
         "city": "Shymkent",
         "country": "Kazakhstan",
         "footprint (Mt CO2)": "7.3",
+        "global ranking": 298,
         "lat": "42.3167",
         "lng": "69.5958"
     },
@@ -1795,6 +2051,7 @@
         "city": "Huaibei",
         "country": "China",
         "footprint (Mt CO2)": "7.3",
+        "global ranking": 299,
         "lat": "33.9560",
         "lng": "116.7980"
     },
@@ -1802,6 +2059,7 @@
         "city": "Qom",
         "country": "Iran",
         "footprint (Mt CO2)": "7.2",
+        "global ranking": 301,
         "lat": "34.6400",
         "lng": "50.8764"
     },
@@ -1809,6 +2067,7 @@
         "city": "Valencia",
         "country": "Spain",
         "footprint (Mt CO2)": "7.2",
+        "global ranking": 302,
         "lat": "39.4700",
         "lng": "-0.3764"
     },
@@ -1816,6 +2075,7 @@
         "city": "Coimbatore",
         "country": "India",
         "footprint (Mt CO2)": "7.2",
+        "global ranking": 303,
         "lat": "11.0167",
         "lng": "76.9556"
     },
@@ -1823,6 +2083,7 @@
         "city": "Unknown city at lat/lon 37.1, 114.5",
         "country": "China",
         "footprint (Mt CO2)": "7.2",
+        "global ranking": 304,
         "lat": "37.1",
         "lng": "114.5"
     },
@@ -1830,6 +2091,7 @@
         "city": "Tashkent",
         "country": "Uzbekistan",
         "footprint (Mt CO2)": "7.1",
+        "global ranking": 305,
         "lat": "41.3111",
         "lng": "69.2797"
     },
@@ -1837,6 +2099,7 @@
         "city": "Huangshi",
         "country": "China",
         "footprint (Mt CO2)": "7.1",
+        "global ranking": 306,
         "lat": "30.2011",
         "lng": "115.0390"
     },
@@ -1844,6 +2107,7 @@
         "city": "Grand Rapids",
         "country": "USA",
         "footprint (Mt CO2)": "7.1",
+        "global ranking": 307,
         "lat": "42.9619",
         "lng": "-85.6562"
     },
@@ -1851,6 +2115,7 @@
         "city": "Zurich",
         "country": "Switzerland",
         "footprint (Mt CO2)": "7.1",
+        "global ranking": 308,
         "lat": "47.3744",
         "lng": "8.5411"
     },
@@ -1858,6 +2123,7 @@
         "city": "Benxi",
         "country": "China",
         "footprint (Mt CO2)": "7.0",
+        "global ranking": 312,
         "lat": "41.4868",
         "lng": "123.6850"
     },
@@ -1865,6 +2131,7 @@
         "city": "Changshu",
         "country": "China",
         "footprint (Mt CO2)": "7.0",
+        "global ranking": 314,
         "lat": "31.6560",
         "lng": "120.7530"
     },
@@ -1872,6 +2139,7 @@
         "city": "Goiania",
         "country": "Brazil",
         "footprint (Mt CO2)": "7.0",
+        "global ranking": 315,
         "lat": "-16.6667",
         "lng": "-49.2500"
     },
@@ -1879,6 +2147,7 @@
         "city": "Casablanca",
         "country": "Morocco",
         "footprint (Mt CO2)": "7.0",
+        "global ranking": 316,
         "lat": "33.5333",
         "lng": "-7.5833"
     },
@@ -1886,6 +2155,7 @@
         "city": "Bursa",
         "country": "Turkey",
         "footprint (Mt CO2)": "7.0",
+        "global ranking": 318,
         "lat": "40.1833",
         "lng": "29.0500"
     },
@@ -1893,6 +2163,7 @@
         "city": "Vadodara",
         "country": "India",
         "footprint (Mt CO2)": "6.9",
+        "global ranking": 321,
         "lat": "22.3000",
         "lng": "73.2000"
     },
@@ -1900,6 +2171,7 @@
         "city": "Toluca",
         "country": "Mexico",
         "footprint (Mt CO2)": "6.9",
+        "global ranking": 323,
         "lat": "19.2925",
         "lng": "-99.6569"
     },
@@ -1907,6 +2179,7 @@
         "city": "Algiers",
         "country": "Algeria",
         "footprint (Mt CO2)": "6.9",
+        "global ranking": 324,
         "lat": "36.7539",
         "lng": "3.0589"
     },
@@ -1914,6 +2187,7 @@
         "city": "Tijuana",
         "country": "Mexico",
         "footprint (Mt CO2)": "6.9",
+        "global ranking": 325,
         "lat": "32.5250",
         "lng": "-117.0333"
     },
@@ -1921,6 +2195,7 @@
         "city": "Unknown city at lat/lon 37.5, 121.3",
         "country": "China",
         "footprint (Mt CO2)": "6.9",
+        "global ranking": 326,
         "lat": "37.5",
         "lng": "121.3"
     },
@@ -1928,6 +2203,7 @@
         "city": "Iqaluit",
         "country": "Canada",
         "footprint (Mt CO2)": "6.8",
+        "global ranking": 327,
         "lat": "63.7598",
         "lng": "-68.5107"
     },
@@ -1935,6 +2211,7 @@
         "city": "Unknown city at lat/lon 36.2, 117.7",
         "country": "China",
         "footprint (Mt CO2)": "6.8",
+        "global ranking": 328,
         "lat": "36.2",
         "lng": "117.7"
     },
@@ -1942,6 +2219,7 @@
         "city": "Polygyros",
         "country": "Greece",
         "footprint (Mt CO2)": "6.8",
+        "global ranking": 329,
         "lat": "40.3667",
         "lng": "23.4333"
     },
@@ -1949,6 +2227,7 @@
         "city": "Asyut",
         "country": "Egypt",
         "footprint (Mt CO2)": "6.7",
+        "global ranking": 330,
         "lat": "27.1833",
         "lng": "31.1667"
     },
@@ -1956,6 +2235,7 @@
         "city": "El Paso",
         "country": "USA",
         "footprint (Mt CO2)": "6.7",
+        "global ranking": 332,
         "lat": "31.8476",
         "lng": "-106.4300"
     },
@@ -1963,6 +2243,7 @@
         "city": "Lyon",
         "country": "France",
         "footprint (Mt CO2)": "6.7",
+        "global ranking": 334,
         "lat": "45.7600",
         "lng": "4.8400"
     },
@@ -1970,6 +2251,7 @@
         "city": "Porto",
         "country": "Portugal",
         "footprint (Mt CO2)": "6.7",
+        "global ranking": 336,
         "lat": "41.1621",
         "lng": "-8.6220"
     },
@@ -1977,6 +2259,7 @@
         "city": "Unknown city at lat/lon 34.4, 107.2",
         "country": "China",
         "footprint (Mt CO2)": "6.6",
+        "global ranking": 337,
         "lat": "34.4",
         "lng": "107.2"
     },
@@ -1984,6 +2267,7 @@
         "city": "Tunis",
         "country": "Tunisia",
         "footprint (Mt CO2)": "6.6",
+        "global ranking": 340,
         "lat": "36.8064",
         "lng": "10.1817"
     },
@@ -1991,6 +2275,7 @@
         "city": "Kanpur",
         "country": "India",
         "footprint (Mt CO2)": "6.5",
+        "global ranking": 342,
         "lat": "26.4499",
         "lng": "80.3319"
     },
@@ -1998,6 +2283,7 @@
         "city": "Huainan",
         "country": "China",
         "footprint (Mt CO2)": "6.5",
+        "global ranking": 343,
         "lat": "32.6314",
         "lng": "117.0194"
     },
@@ -2005,6 +2291,7 @@
         "city": "Jiaxing",
         "country": "China",
         "footprint (Mt CO2)": "6.5",
+        "global ranking": 344,
         "lat": "30.7470",
         "lng": "120.7560"
     },
@@ -2012,6 +2299,7 @@
         "city": "Furth",
         "country": "Germany",
         "footprint (Mt CO2)": "6.4",
+        "global ranking": 345,
         "lat": "49.4667",
         "lng": "11.0000"
     },
@@ -2019,6 +2307,7 @@
         "city": "Bristol",
         "country": "UK",
         "footprint (Mt CO2)": "6.4",
+        "global ranking": 346,
         "lat": "51.4536",
         "lng": "-2.5975"
     },
@@ -2026,6 +2315,7 @@
         "city": "Hilo",
         "country": "USA",
         "footprint (Mt CO2)": "6.4",
+        "global ranking": 347,
         "lat": "19.6883",
         "lng": "-155.0863"
     },
@@ -2033,6 +2323,7 @@
         "city": "Havana",
         "country": "Cuba",
         "footprint (Mt CO2)": "6.3",
+        "global ranking": 348,
         "lat": "23.1367",
         "lng": "-82.3589"
     },
@@ -2040,6 +2331,7 @@
         "city": "Unknown city at lat/lon 37.5, 116.3",
         "country": "China",
         "footprint (Mt CO2)": "6.3",
+        "global ranking": 349,
         "lat": "37.5",
         "lng": "116.3"
     },
@@ -2047,6 +2339,7 @@
         "city": "Helsinki",
         "country": "Finland",
         "footprint (Mt CO2)": "6.3",
+        "global ranking": 350,
         "lat": "60.1708",
         "lng": "24.9375"
     },
@@ -2054,6 +2347,7 @@
         "city": "Campinas",
         "country": "Brazil",
         "footprint (Mt CO2)": "6.3",
+        "global ranking": 351,
         "lat": "-22.9058",
         "lng": "-47.0608"
     },
@@ -2061,6 +2355,7 @@
         "city": "Astrakhan",
         "country": "Russia",
         "footprint (Mt CO2)": "6.2",
+        "global ranking": 352,
         "lat": "46.3500",
         "lng": "48.0350"
     },
@@ -2068,6 +2363,7 @@
         "city": "Yaroslavl",
         "country": "Russia",
         "footprint (Mt CO2)": "6.2",
+        "global ranking": 354,
         "lat": "57.6167",
         "lng": "39.8500"
     },
@@ -2075,6 +2371,7 @@
         "city": "Zunyi",
         "country": "China",
         "footprint (Mt CO2)": "6.2",
+        "global ranking": 355,
         "lat": "27.7220",
         "lng": "107.0310"
     },
@@ -2082,6 +2379,7 @@
         "city": "Asansol",
         "country": "India",
         "footprint (Mt CO2)": "6.1",
+        "global ranking": 356,
         "lat": "23.6800",
         "lng": "86.9900"
     },
@@ -2089,6 +2387,7 @@
         "city": "T'ainan",
         "country": "Taiwan",
         "footprint (Mt CO2)": "6.1",
+        "global ranking": 357,
         "lat": "22.9833",
         "lng": "120.1833"
     },
@@ -2096,6 +2395,7 @@
         "city": "Guilin",
         "country": "China",
         "footprint (Mt CO2)": "6.1",
+        "global ranking": 358,
         "lat": "25.2750",
         "lng": "110.2960"
     },
@@ -2103,6 +2403,7 @@
         "city": "Colorado Springs",
         "country": "USA",
         "footprint (Mt CO2)": "6.1",
+        "global ranking": 359,
         "lat": "38.8674",
         "lng": "-104.7605"
     },
@@ -2110,6 +2411,7 @@
         "city": "Unknown city at lat/lon 32.6, 110.8",
         "country": "China",
         "footprint (Mt CO2)": "6.1",
+        "global ranking": 360,
         "lat": "32.6",
         "lng": "110.8"
     },
@@ -2117,6 +2419,7 @@
         "city": "Dayton",
         "country": "USA",
         "footprint (Mt CO2)": "6.1",
+        "global ranking": 361,
         "lat": "39.7805",
         "lng": "-84.2003"
     },
@@ -2124,6 +2427,7 @@
         "city": "Unknown city at lat/lon 37.5, 118.5",
         "country": "China",
         "footprint (Mt CO2)": "6.0",
+        "global ranking": 364,
         "lat": "37.5",
         "lng": "118.5"
     },
@@ -2131,6 +2435,7 @@
         "city": "Ludhiana",
         "country": "India",
         "footprint (Mt CO2)": "6.0",
+        "global ranking": 365,
         "lat": "30.9100",
         "lng": "75.8500"
     },
@@ -2138,6 +2443,7 @@
         "city": "Hengyang",
         "country": "China",
         "footprint (Mt CO2)": "6.0",
+        "global ranking": 367,
         "lat": "26.8940",
         "lng": "112.5720"
     },
@@ -2145,6 +2451,7 @@
         "city": "Allentown",
         "country": "USA",
         "footprint (Mt CO2)": "6.0",
+        "global ranking": 368,
         "lat": "40.5961",
         "lng": "-75.4756"
     },
@@ -2152,6 +2459,7 @@
         "city": "Unknown city at lat/lon 35.5, 112.8",
         "country": "China",
         "footprint (Mt CO2)": "5.9",
+        "global ranking": 370,
         "lat": "35.5",
         "lng": "112.8"
     },
@@ -2159,6 +2467,7 @@
         "city": "Qiqihar",
         "country": "China",
         "footprint (Mt CO2)": "5.9",
+        "global ranking": 372,
         "lat": "47.3549",
         "lng": "123.9182"
     },
@@ -2166,6 +2475,7 @@
         "city": "Auckland",
         "country": "New Zealand",
         "footprint (Mt CO2)": "5.9",
+        "global ranking": 373,
         "lat": "-36.8406",
         "lng": "174.7400"
     },
@@ -2173,6 +2483,7 @@
         "city": "Toledo",
         "country": "USA",
         "footprint (Mt CO2)": "5.9",
+        "global ranking": 374,
         "lat": "41.6638",
         "lng": "-83.5827"
     },
@@ -2180,6 +2491,7 @@
         "city": "Zaozhuang",
         "country": "China",
         "footprint (Mt CO2)": "5.9",
+        "global ranking": 375,
         "lat": "34.8109",
         "lng": "117.3238"
     },
@@ -2187,6 +2499,7 @@
         "city": "Unknown city at lat/lon 43.2, 124.4",
         "country": "China",
         "footprint (Mt CO2)": "5.9",
+        "global ranking": 376,
         "lat": "43.2",
         "lng": "124.4"
     },
@@ -2194,6 +2507,7 @@
         "city": "Yuci",
         "country": "China",
         "footprint (Mt CO2)": "5.8",
+        "global ranking": 377,
         "lat": "37.6823",
         "lng": "112.7281"
     },
@@ -2201,6 +2515,7 @@
         "city": "Rosario",
         "country": "Argentina",
         "footprint (Mt CO2)": "5.8",
+        "global ranking": 378,
         "lat": "-32.9575",
         "lng": "-60.6394"
     },
@@ -2208,6 +2523,7 @@
         "city": "Belgrade",
         "country": "Serbia",
         "footprint (Mt CO2)": "5.8",
+        "global ranking": 379,
         "lat": "44.8200",
         "lng": "20.4600"
     },
@@ -2215,6 +2531,7 @@
         "city": "Tolyatti",
         "country": "Russia",
         "footprint (Mt CO2)": "5.8",
+        "global ranking": 380,
         "lat": "53.5089",
         "lng": "49.4222"
     },
@@ -2222,6 +2539,7 @@
         "city": "Kermanshah",
         "country": "Iran",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 381,
         "lat": "34.3325",
         "lng": "47.0933"
     },
@@ -2229,6 +2547,7 @@
         "city": "Unknown city at lat/lon 45.1, 124.8",
         "country": "China",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 382,
         "lat": "45.1",
         "lng": "124.8"
     },
@@ -2236,6 +2555,7 @@
         "city": "Kayseri",
         "country": "Turkey",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 385,
         "lat": "38.7225",
         "lng": "35.4875"
     },
@@ -2243,6 +2563,7 @@
         "city": "Lagos",
         "country": "Nigeria",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 386,
         "lat": "6.4550",
         "lng": "3.3841"
     },
@@ -2250,6 +2571,7 @@
         "city": "Wichita",
         "country": "USA",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 387,
         "lat": "37.6895",
         "lng": "-97.3443"
     },
@@ -2257,6 +2579,7 @@
         "city": "Tula",
         "country": "Russia",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 388,
         "lat": "54.2000",
         "lng": "37.6167"
     },
@@ -2264,6 +2587,7 @@
         "city": "Richmond",
         "country": "USA",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 389,
         "lat": "37.5295",
         "lng": "-77.4756"
     },
@@ -2271,6 +2595,7 @@
         "city": "Raipur",
         "country": "India",
         "footprint (Mt CO2)": "5.7",
+        "global ranking": 390,
         "lat": "21.2444",
         "lng": "81.6306"
     },
@@ -2278,6 +2603,7 @@
         "city": "Mudanjiang",
         "country": "China",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 391,
         "lat": "44.5514",
         "lng": "129.6329"
     },
@@ -2285,6 +2611,7 @@
         "city": "Unknown city at lat/lon 35.4, 119.5",
         "country": "China",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 392,
         "lat": "35.4",
         "lng": "119.5"
     },
@@ -2292,6 +2619,7 @@
         "city": "Recife",
         "country": "Brazil",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 393,
         "lat": "-8.0500",
         "lng": "-34.9000"
     },
@@ -2299,6 +2627,7 @@
         "city": "Lipetsk",
         "country": "Russia",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 394,
         "lat": "52.6167",
         "lng": "39.6000"
     },
@@ -2306,6 +2635,7 @@
         "city": "Bengbu",
         "country": "China",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 395,
         "lat": "32.9170",
         "lng": "117.3890"
     },
@@ -2313,6 +2643,7 @@
         "city": "Malang",
         "country": "Indonesia",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 396,
         "lat": "-7.9800",
         "lng": "112.6200"
     },
@@ -2320,6 +2651,7 @@
         "city": "Ryazan",
         "country": "Russia",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 397,
         "lat": "54.6300",
         "lng": "39.7425"
     },
@@ -2327,6 +2659,7 @@
         "city": "Barranquilla",
         "country": "Colombia",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 398,
         "lat": "10.9833",
         "lng": "-74.8019"
     },
@@ -2334,6 +2667,7 @@
         "city": "Xining",
         "country": "China",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 399,
         "lat": "36.6224",
         "lng": "101.7804"
     },
@@ -2341,6 +2675,7 @@
         "city": "Bilbao",
         "country": "Spain",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 400,
         "lat": "43.2569",
         "lng": "-2.9236"
     },
@@ -2348,6 +2683,7 @@
         "city": "Unknown city at lat/lon 33.6, 119.0",
         "country": "China",
         "footprint (Mt CO2)": "5.6",
+        "global ranking": 401,
         "lat": "33.6",
         "lng": "119.0"
     },
@@ -2355,6 +2691,7 @@
         "city": "Barnaul",
         "country": "Russia",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 402,
         "lat": "53.3486",
         "lng": "83.7764"
     },
@@ -2362,6 +2699,7 @@
         "city": "Nashville",
         "country": "USA",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 403,
         "lat": "36.1715",
         "lng": "-86.7842"
     },
@@ -2369,6 +2707,7 @@
         "city": "Bhopal",
         "country": "India",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 404,
         "lat": "23.2599",
         "lng": "77.4126"
     },
@@ -2376,6 +2715,7 @@
         "city": "Tyumen",
         "country": "Russia",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 405,
         "lat": "57.1500",
         "lng": "65.5333"
     },
@@ -2383,6 +2723,7 @@
         "city": "Memphis",
         "country": "USA",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 406,
         "lat": "35.1087",
         "lng": "-89.9663"
     },
@@ -2390,6 +2731,7 @@
         "city": "London",
         "country": "Canada",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 407,
         "lat": "42.9836",
         "lng": "-81.2497"
     },
@@ -2397,6 +2739,7 @@
         "city": "Kharkiv",
         "country": "Ukraine",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 408,
         "lat": "49.9925",
         "lng": "36.2311"
     },
@@ -2404,6 +2747,7 @@
         "city": "Zhuzhou",
         "country": "China",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 410,
         "lat": "27.8290",
         "lng": "113.1330"
     },
@@ -2411,6 +2755,7 @@
         "city": "Langfang",
         "country": "China",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 411,
         "lat": "39.5383",
         "lng": "116.6835"
     },
@@ -2418,6 +2763,7 @@
         "city": "Unknown city at lat/lon 34.0, 113.8",
         "country": "China",
         "footprint (Mt CO2)": "5.5",
+        "global ranking": 412,
         "lat": "34.0",
         "lng": "113.8"
     },
@@ -2425,6 +2771,7 @@
         "city": "Utrecht",
         "country": "Netherlands",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 413,
         "lat": "52.0908",
         "lng": "5.1217"
     },
@@ -2432,6 +2779,7 @@
         "city": "Unknown city at lat/lon 33.6, 114.0",
         "country": "China",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 414,
         "lat": "33.6",
         "lng": "114.0"
     },
@@ -2439,6 +2787,7 @@
         "city": "Guayaquil",
         "country": "Ecuador",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 416,
         "lat": "-2.1900",
         "lng": "-79.8875"
     },
@@ -2446,6 +2795,7 @@
         "city": "Unknown city at lat/lon 38.3, 116.8",
         "country": "China",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 417,
         "lat": "38.3",
         "lng": "116.8"
     },
@@ -2453,6 +2803,7 @@
         "city": "Cali",
         "country": "Colombia",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 418,
         "lat": "3.4206",
         "lng": "-76.5222"
     },
@@ -2460,6 +2811,7 @@
         "city": "Unknown city at lat/lon 35.8, 115.0",
         "country": "China",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 419,
         "lat": "35.8",
         "lng": "115.0"
     },
@@ -2467,6 +2819,7 @@
         "city": "Dandong",
         "country": "China",
         "footprint (Mt CO2)": "5.4",
+        "global ranking": 420,
         "lat": "40.1167",
         "lng": "124.3833"
     },
@@ -2474,6 +2827,7 @@
         "city": "Nottingham",
         "country": "UK",
         "footprint (Mt CO2)": "5.3",
+        "global ranking": 422,
         "lat": "52.9561",
         "lng": "-1.1512"
     },
@@ -2481,6 +2835,7 @@
         "city": "Rochester",
         "country": "USA",
         "footprint (Mt CO2)": "5.3",
+        "global ranking": 423,
         "lat": "43.1680",
         "lng": "-77.6162"
     },
@@ -2488,6 +2843,7 @@
         "city": "Donets'k",
         "country": "Ukraine",
         "footprint (Mt CO2)": "5.3",
+        "global ranking": 425,
         "lat": "48.0028",
         "lng": "37.8053"
     },
@@ -2495,6 +2851,7 @@
         "city": "Hamilton",
         "country": "Canada",
         "footprint (Mt CO2)": "5.3",
+        "global ranking": 426,
         "lat": "43.2567",
         "lng": "-79.8692"
     },
@@ -2502,6 +2859,7 @@
         "city": "Luanda",
         "country": "Angola",
         "footprint (Mt CO2)": "5.3",
+        "global ranking": 427,
         "lat": "-8.8383",
         "lng": "13.2344"
     },
@@ -2509,6 +2867,7 @@
         "city": "Peshawar",
         "country": "Pakistan",
         "footprint (Mt CO2)": "5.2",
+        "global ranking": 428,
         "lat": "34.0144",
         "lng": "71.5675"
     },
@@ -2516,6 +2875,7 @@
         "city": "Penza",
         "country": "Russia",
         "footprint (Mt CO2)": "5.2",
+        "global ranking": 429,
         "lat": "53.2000",
         "lng": "45.0000"
     },
@@ -2523,6 +2883,7 @@
         "city": "Al Basrah",
         "country": "Iraq",
         "footprint (Mt CO2)": "5.2",
+        "global ranking": 430,
         "lat": "30.5150",
         "lng": "47.8100"
     },
@@ -2530,6 +2891,7 @@
         "city": "Unknown city at lat/lon 36.5, 116.0",
         "country": "China",
         "footprint (Mt CO2)": "5.2",
+        "global ranking": 431,
         "lat": "36.5",
         "lng": "116.0"
     },
@@ -2537,6 +2899,7 @@
         "city": "Ypacarai",
         "country": "Paraguay",
         "footprint (Mt CO2)": "5.2",
+        "global ranking": 432,
         "lat": "-25.3833",
         "lng": "-57.2667"
     },
@@ -2544,6 +2907,7 @@
         "city": "Unknown city at lat/lon 42.9, 129.5",
         "country": "China",
         "footprint (Mt CO2)": "5.2",
+        "global ranking": 433,
         "lat": "42.9",
         "lng": "129.5"
     },
@@ -2551,6 +2915,7 @@
         "city": "Unknown city at lat/lon 46.6, 124.9",
         "country": "China",
         "footprint (Mt CO2)": "5.1",
+        "global ranking": 435,
         "lat": "46.6",
         "lng": "124.9"
     },
@@ -2558,6 +2923,7 @@
         "city": "Kavaratti",
         "country": "India",
         "footprint (Mt CO2)": "5.1",
+        "global ranking": 436,
         "lat": "10.5626",
         "lng": "72.6369"
     },
@@ -2565,6 +2931,7 @@
         "city": "Charlotte",
         "country": "USA",
         "footprint (Mt CO2)": "5.1",
+        "global ranking": 437,
         "lat": "35.2083",
         "lng": "-80.8303"
     },
@@ -2572,6 +2939,7 @@
         "city": "Colombo",
         "country": "Sri Lanka",
         "footprint (Mt CO2)": "5.1",
+        "global ranking": 438,
         "lat": "6.9344",
         "lng": "79.8428"
     },
@@ -2579,6 +2947,7 @@
         "city": "Jiamusi",
         "country": "China",
         "footprint (Mt CO2)": "5.1",
+        "global ranking": 439,
         "lat": "46.8000",
         "lng": "130.3190"
     },
@@ -2586,6 +2955,7 @@
         "city": "Raleigh",
         "country": "USA",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 441,
         "lat": "35.8324",
         "lng": "-78.6429"
     },
@@ -2593,6 +2963,7 @@
         "city": "Zhangjiakou",
         "country": "China",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 442,
         "lat": "40.7690",
         "lng": "114.8860"
     },
@@ -2600,6 +2971,7 @@
         "city": "San Jose",
         "country": "Costa Rica",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 443,
         "lat": "9.9325",
         "lng": "-84.0800"
     },
@@ -2607,6 +2979,7 @@
         "city": "Maracay",
         "country": "Venezuela",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 444,
         "lat": "10.2469",
         "lng": "-67.5961"
     },
@@ -2614,6 +2987,7 @@
         "city": "Fortaleza",
         "country": "Brazil",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 445,
         "lat": "-3.7275",
         "lng": "-38.5275"
     },
@@ -2621,6 +2995,7 @@
         "city": "Unknown city at lat/lon 35.1, 117.1",
         "country": "China",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 446,
         "lat": "35.1",
         "lng": "117.1"
     },
@@ -2628,6 +3003,7 @@
         "city": "Rasht",
         "country": "Iran",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 449,
         "lat": "37.2744",
         "lng": "49.5889"
     },
@@ -2635,6 +3011,7 @@
         "city": "Tabuk",
         "country": "Saudi Arabia",
         "footprint (Mt CO2)": "5.0",
+        "global ranking": 450,
         "lat": "28.3972",
         "lng": "36.5789"
     },
@@ -2642,6 +3019,7 @@
         "city": "Sofia",
         "country": "Bulgaria",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 452,
         "lat": "42.7000",
         "lng": "23.3300"
     },
@@ -2649,6 +3027,7 @@
         "city": "Hannover",
         "country": "Germany",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 453,
         "lat": "52.3667",
         "lng": "9.7167"
     },
@@ -2656,6 +3035,7 @@
         "city": "Bakersfield",
         "country": "USA",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 455,
         "lat": "35.3529",
         "lng": "-119.0359"
     },
@@ -2663,6 +3043,7 @@
         "city": "Florence",
         "country": "Italy",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 456,
         "lat": "43.7714",
         "lng": "11.2542"
     },
@@ -2670,6 +3051,7 @@
         "city": "Stavropol",
         "country": "Russia",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 457,
         "lat": "45.0500",
         "lng": "41.9833"
     },
@@ -2677,6 +3059,7 @@
         "city": "Kaliningrad",
         "country": "Russia",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 459,
         "lat": "54.7003",
         "lng": "20.4531"
     },
@@ -2684,6 +3067,7 @@
         "city": "Kemerovo",
         "country": "Russia",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 460,
         "lat": "55.3667",
         "lng": "86.0667"
     },
@@ -2691,6 +3075,7 @@
         "city": "Tripoli",
         "country": "Libya",
         "footprint (Mt CO2)": "4.9",
+        "global ranking": 461,
         "lat": "32.8872",
         "lng": "13.1914"
     },
@@ -2698,6 +3083,7 @@
         "city": "Newport News",
         "country": "USA",
         "footprint (Mt CO2)": "4.8",
+        "global ranking": 463,
         "lat": "37.1051",
         "lng": "-76.5185"
     },
@@ -2705,6 +3091,7 @@
         "city": "Unknown city at lat/lon 42.9, 125.1",
         "country": "China",
         "footprint (Mt CO2)": "4.8",
+        "global ranking": 464,
         "lat": "42.9",
         "lng": "125.1"
     },
@@ -2712,6 +3099,7 @@
         "city": "Kudymkar",
         "country": "Russia",
         "footprint (Mt CO2)": "4.8",
+        "global ranking": 467,
         "lat": "59.0167",
         "lng": "54.6667"
     },
@@ -2719,6 +3107,7 @@
         "city": "Belgorod",
         "country": "Russia",
         "footprint (Mt CO2)": "4.8",
+        "global ranking": 468,
         "lat": "50.6000",
         "lng": "36.6000"
     },
@@ -2726,6 +3115,7 @@
         "city": "Lille",
         "country": "France",
         "footprint (Mt CO2)": "4.8",
+        "global ranking": 469,
         "lat": "50.6278",
         "lng": "3.0583"
     },
@@ -2733,6 +3123,7 @@
         "city": "Akron",
         "country": "USA",
         "footprint (Mt CO2)": "4.7",
+        "global ranking": 471,
         "lat": "41.0798",
         "lng": "-81.5219"
     },
@@ -2740,6 +3131,7 @@
         "city": "Unknown city at lat/lon 40.7, 120.8",
         "country": "China",
         "footprint (Mt CO2)": "4.7",
+        "global ranking": 473,
         "lat": "40.7",
         "lng": "120.8"
     },
@@ -2747,6 +3139,7 @@
         "city": "Barquisimeto",
         "country": "Venezuela",
         "footprint (Mt CO2)": "4.7",
+        "global ranking": 474,
         "lat": "10.0636",
         "lng": "-69.3347"
     },
@@ -2754,6 +3147,7 @@
         "city": "Vladivostok",
         "country": "Russia",
         "footprint (Mt CO2)": "4.7",
+        "global ranking": 475,
         "lat": "43.1333",
         "lng": "131.9000"
     },
@@ -2761,6 +3155,7 @@
         "city": "Tomsk",
         "country": "Russia",
         "footprint (Mt CO2)": "4.7",
+        "global ranking": 476,
         "lat": "56.5000",
         "lng": "84.9667"
     },
@@ -2768,6 +3163,7 @@
         "city": "Orenburg",
         "country": "Russia",
         "footprint (Mt CO2)": "4.7",
+        "global ranking": 477,
         "lat": "51.7833",
         "lng": "55.1000"
     },
@@ -2775,6 +3171,7 @@
         "city": "Unknown city at lat/lon 32.5, 119.9",
         "country": "China",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 478,
         "lat": "32.5",
         "lng": "119.9"
     },
@@ -2782,6 +3179,7 @@
         "city": "Novokuznetsk",
         "country": "Russia",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 479,
         "lat": "53.7667",
         "lng": "87.1333"
     },
@@ -2789,6 +3187,7 @@
         "city": "Palm Springs",
         "country": "USA",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 481,
         "lat": "33.8017",
         "lng": "-116.5382"
     },
@@ -2796,6 +3195,7 @@
         "city": "Buraydah",
         "country": "Saudi Arabia",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 483,
         "lat": "26.3333",
         "lng": "43.9667"
     },
@@ -2803,6 +3203,7 @@
         "city": "Unknown city at lat/lon 39.1, 117.7",
         "country": "China",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 484,
         "lat": "39.1",
         "lng": "117.7"
     },
@@ -2810,6 +3211,7 @@
         "city": "Varanasi",
         "country": "India",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 485,
         "lat": "25.3189",
         "lng": "83.0128"
     },
@@ -2817,6 +3219,7 @@
         "city": "Surat",
         "country": "India",
         "footprint (Mt CO2)": "4.6",
+        "global ranking": 487,
         "lat": "21.1702",
         "lng": "72.8311"
     },
@@ -2824,6 +3227,7 @@
         "city": "Unknown city at lat/lon 37.5, 112.1",
         "country": "China",
         "footprint (Mt CO2)": "4.5",
+        "global ranking": 488,
         "lat": "37.5",
         "lng": "112.1"
     },
@@ -2831,6 +3235,7 @@
         "city": "Merida",
         "country": "Mexico",
         "footprint (Mt CO2)": "4.5",
+        "global ranking": 489,
         "lat": "20.9700",
         "lng": "-89.6200"
     },
@@ -2838,6 +3243,7 @@
         "city": "Varamin",
         "country": "Iran",
         "footprint (Mt CO2)": "4.5",
+        "global ranking": 490,
         "lat": "35.3508",
         "lng": "51.6358"
     },
@@ -2845,6 +3251,7 @@
         "city": "Unknown city at lat/lon 32.9, 115.8",
         "country": "China",
         "footprint (Mt CO2)": "4.5",
+        "global ranking": 492,
         "lat": "32.9",
         "lng": "115.8"
     },
@@ -2852,6 +3259,7 @@
         "city": "Mary",
         "country": "Turkmenistan",
         "footprint (Mt CO2)": "4.5",
+        "global ranking": 493,
         "lat": "37.6000",
         "lng": "61.8333"
     },
@@ -2859,6 +3267,7 @@
         "city": "Brasilia",
         "country": "Brazil",
         "footprint (Mt CO2)": "4.5",
+        "global ranking": 495,
         "lat": "-15.7939",
         "lng": "-47.8828"
     },
@@ -2866,6 +3275,7 @@
         "city": "Kursk",
         "country": "Russia",
         "footprint (Mt CO2)": "4.4",
+        "global ranking": 496,
         "lat": "51.7167",
         "lng": "36.1833"
     },
@@ -2873,6 +3283,7 @@
         "city": "Daqing",
         "country": "China",
         "footprint (Mt CO2)": "4.4",
+        "global ranking": 497,
         "lat": "46.5890",
         "lng": "125.1040"
     },
@@ -2880,6 +3291,7 @@
         "city": "Mendoza",
         "country": "Argentina",
         "footprint (Mt CO2)": "4.4",
+        "global ranking": 498,
         "lat": "-32.8833",
         "lng": "-68.8167"
     },
@@ -2887,6 +3299,7 @@
         "city": "Waterloo",
         "country": "Canada",
         "footprint (Mt CO2)": "4.4",
+        "global ranking": 499,
         "lat": "43.4667",
         "lng": "-80.5167"
     },
@@ -2894,6 +3307,7 @@
         "city": "Unknown city at lat/lon 36.0, 129.4",
         "country": "South Korea",
         "footprint (Mt CO2)": "4.4",
+        "global ranking": 500,
         "lat": "36.0",
         "lng": "129.4"
     }
