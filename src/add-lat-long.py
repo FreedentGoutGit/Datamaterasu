@@ -59,6 +59,7 @@ with open(FILE_GGMCF) as datafile:
         city = row['Urban Cluster']
         country = row['Country']
         footprint = row['Footprint (Mt CO2)'].split(' &plusmn')[0]  # just want the Mt, don't care about +/-
+        global_ranking = int(row['Global ranking'])
 
         # Some 'cities' come in as "Unknown city at lat/lon 37.5, 112.1", can grab directly
         if ("Unknown city" in city):
@@ -82,6 +83,7 @@ with open(FILE_GGMCF) as datafile:
                 'city': city,
                 'country': country,
                 'footprint (Mt CO2)': footprint,
+                'global ranking': global_ranking,
                 'lat': lat,
                 'lng': lng,
             })
