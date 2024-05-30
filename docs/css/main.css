@@ -150,14 +150,13 @@ body {
     color: white;
 }
 
-/* Sunburst visualisation*/
-
-sunburst-container {
+#sunburst-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 80%;
+    height: auto;
+    width: 100%;
     box-sizing: border-box;
-    background-color: #E5D9B6;
+    background-color: rgb(229, 217, 182); /* Change this to your desired background color */
 }
+

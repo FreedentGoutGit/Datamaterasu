@@ -1,0 +1,36 @@
+Unnamed: 0,<0$,0 to 20$,20 to 50$,50 to 100$,100 to 200$,No costs could be allocated to this category,Total,Lower end uncertainty range,High end uncertainty range,Unnamed: 10
+ENERGY,,,,,,,,,,
+Solar,2.7,0.6,0.6,0.6,,,4.5,2.0,7.0,smooth
+Wind,2.31,0.77,0.77,,,,3.85,2.1,5.6,smooth
+"Reduce CH4 from coal, oil and gas",0.35,1.02,0.1,0.08,0.1,,1.65,,,
+Bioelectricity (includes BECCS),,,,0.58,0.58,,1.16,,,
+Geothermal and hydropower,,0.35,0.35,0.35,,,1.06,,,
+Nuclear,0.176,0.176,0.176,0.176,0.176,,0.88,0.44,1.32,smooth
+Fossil Carbon Capture and Storage (CCS),,,,0.27,0.27,,0.54,0.27,0.81,smooth
+"LAND, WATER, FOOD",,,,,,,,,,
+Reduce conversion of natural ecosystems,,2.28,0.12,1.63,,,4.03,2.53,7.35,
+Carbon sequestration in agriculture,,0.5,0.73,2.21,,,3.44,1.4,5.5,
+"Ecosystem restoration, afforestation, reforestation",,0.15,0.57,1.46,0.66,,2.84,1.2,4.9,
+Shift to sustainable healthy diets,,,,,,1.7,1.7,1.0,2.7,
+Forest and fire management,,0.38,,0.78,0.22,,1.4,0.6,2.8,
+Reduce CH4 and N2O in agriculture,,0.35,,0.28,,,0.63,0.3,1.3,
+Reduce food loss and food waste ,,,,,,0.5,0.5,0.1,0.9,
+SETTLEMENTS AND INFRASTRUCTURE,,,,,,,,,,
+Efficient buildings,,0.18,0.18,0.18,0.9,,1.44,,,
+Fuel efficient vehicles,0.92,,,,,,0.92,,,
+Electric vehicles,,,,,,0.8,0.8,,,
+"Efficient lighting, appliances and equipment",0.726,,,,,,0.726,0.544,0.907,
+Public transport and bicycling,0.72,,,,,,0.72,,,
+Biofuels,,0.233333333333333,0.233333333333333,0.233333333333333,,,0.7,0.35,1.05,smooth
+Efficient shipping and aviation,0.69,,,,,,0.69,,,
+Avoid demand for energy services,0.557,,,,,,0.557,0.279,0.836,
+Onsite renewables,,0.0666666666666667,0.0666666666666667,0.0666666666666667,0.27,,0.47,0.35,0.7,smooth
+INDUSTRY AND WASTE,,,,,,,,,,
+Fuel switching,,,1.28,0.667,0.152,,2.099,1.57425,2.62375,
+Reduce emission of fluorinated gas,0.26,0.68,0.18,0.09,0.03,,1.24,0.7,1.5,
+Energy efficiency,,1.14,,,,,1.14,0.855,1.425,
+Material efficiency,,,0.93,,,,0.93,0.6975,1.1625,
+Reduce CH4 from waste/wastewater,0.35,0.14,0.1,0.07,0.15,,0.81,,,
+Construction materials substitution,,,0.28,,,0.38,0.66,,,
+Enhanced recycling,,,0.48,,,,0.48,0.36,0.6,
+Carbon capture with usage,,, ,,0.152,,0.152,0.114,0.36,
