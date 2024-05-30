@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 	let currentYear = 1990;
 	const startYear = 1990;
-	const endYear = 2024;
+	const endYear = 2022;
 	let interval;
 	const progressBar = document.getElementById('progressBar');
 	const yearDisplay = document.getElementById('yearDisplay');

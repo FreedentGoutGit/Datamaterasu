@@ -5,11 +5,11 @@
 	--palette3: #5F8D4E;
 	--palette4: #285430;
 	--selected: #0056b3;
+	--basic-font-size: 18px;
 }
 
 body {
-	/* font-family: 'Arial', sans-serif; */
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Arial', sans-serif;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .section p {
-	font-size: 18px;
+	font-size: var(--basic-font-size);
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
 }
@@ -88,7 +88,7 @@ h1 {
 	gap: 10px;
 	grid-column: 2;
 	grid-row: 3;
-	width: 80%;
+	width: 75%;
 	margin: auto;
 }
 
@@ -131,6 +131,14 @@ h1 {
 
 #visualizerContent {
 	align-content: center;
+	margin-right: 50px;
+
+	li {
+		display: list-item;
+		margin-left: 32px;
+		margin-bottom: 16px;
+		font-size: var(--basic-font-size);
+	}
 }
 
 .control-button {
@@ -225,7 +233,6 @@ svg {
 }
 
 /* Sunburst visualisation*/
-
 sunburst-container {
 	display: flex;
 	justify-content: center;
