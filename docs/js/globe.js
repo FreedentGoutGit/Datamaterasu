@@ -3,10 +3,11 @@ const countryColorScale = d3.scaleSequentialSqrt(d3.interpolateYlOrRd);
 const cityColorScale = d3.scaleSequential(d3.interpolateYlOrRd);
 cityColorScale.domain([-0.2, 1]);
 
-const getEmissions = (country, year) => country[year].share_global_co2.toFixed(2);
+const getEmissionsShare = (country, year) => country[year].share_global_co2.toFixed(2);
+const getEmissionsMagnitude = (country, year) => country[year].co2.toFixed(2);
 const getColor = (country, year) => {
 	try {
-		return countryColorScale(getEmissions(country, year));
+		return countryColorScale(getEmissionsShare(country, year));
 	} catch (error) {
 		return "gray";
 	}
@@ -48,16 +49,20 @@ document.addEventListener('DOMContentLoaded', () => {
 				.polygonLabel(({ properties: d }) => {
 					const current_country = owid_data[d.ISO_A3];
 					const current_year = window.getCurrentYear();
+					let emissionsShare;
 					let emissions;
 					try {
-						emissions = `${getEmissions(current_country, current_year)}%`;
+						emissionsShare = `${getEmissionsShare(current_country, current_year)}%`;
+						emissions = `${getEmissionsMagnitude(current_country, current_year)} Mt CO2`;
 					} catch(error) {
+						emissionsShare = "N/A";
 						emissions = "N/A";
 					}
 
 					return `
 						<b>${d.ADMIN} (${d.ISO_A3}):</b> <br />
-						Share of Global CO2 Emissions: <i>${emissions}</i>
+						Share of Global CO2 Emissions: <i>${emissionsShare}</i> <br />
+						Annual Emissions: <i>${emissions}</i>
 						`
 				})
 				.polygonsTransitionDuration(300)
