@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				playPauseIcon.classList.add('fa-play');
 				isPlaying = false;
 			}
-		}, 250); // Update every second
+		}, 125); // Update rate
 	}
 
 	function pause() {
