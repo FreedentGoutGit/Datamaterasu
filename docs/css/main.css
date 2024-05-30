@@ -200,7 +200,7 @@ svg {
 	height: 100%;
 	background-size: 100% 100%;
 	background-color: black; /* in case the video doesn't fit the whole page*/
-	background-image: /* our video */;
+	/* background-image: /* our video */
 	background-position: center center;
 	background-size: contain;
 	object-fit: cover; /*cover video background */
@@ -208,11 +208,9 @@ svg {
 }
 
 #section0 .layer{
-	position: absolute;
+	position: relative;
 	z-index: 4;
-	width: 100%;
-	left: 0;
-	top: 20%;
+	align-content: center;
 
 	/*
 	 * Preventing flicker on some browsers
