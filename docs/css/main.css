@@ -251,9 +251,8 @@ svg {
 }
 
 #curve_info_container {
-    position: center;  /* Changed to absolute positioning */
-    bottom: 0;
     width: 80%;
+	margin: auto;
     background-color: var(--palette1);
     text-align: center;
 	padding: 20px;
