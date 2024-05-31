@@ -30,6 +30,34 @@ function popElements(){
     });
 }
 
+function popElements2(){ 
+
+    
+    const popElements2 = document.querySelectorAll('.pop2');
+    let delay = 0;
+
+    popElements2.forEach(element => {
+        setTimeout(() => {
+            element.classList.add('pop2-in');
+        }, delay);
+        delay += 1500; 
+    });
+}
+
+function popElements3(){ 
+
+    
+    const popElements3 = document.querySelectorAll('.pop3');
+    let delay = 0;
+
+    popElements3.forEach(element => {
+        setTimeout(() => {
+            element.classList.add('pop3-in');
+        }, delay);
+        delay += 1500; 
+    });
+}
+
 
 function loadImpactFully()
 {
