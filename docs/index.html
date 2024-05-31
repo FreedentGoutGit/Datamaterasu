@@ -166,7 +166,7 @@
             credits: { enabled: false },
             scrollingSpeed: 1000,
             controlArrows: false,
-            normalScrollElements: "#globeViz",
+            normalScrollElements: "#globeVizCountries, #globeVizCities",
             afterLoad: function(origin, destination, direction) {
                 if (destination.index === 6 && destination.item.querySelector('#my_dataviz')) {
                     loadAndPlotData(); // Start the animation when entering the chart section
