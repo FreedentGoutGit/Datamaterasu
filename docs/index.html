@@ -82,7 +82,7 @@
 					</div>
 				</div>
 				<div class="slide" id="slide2">
-					<div class="intro">
+					<div class="intro" id = "timeseries-container">
 						<h1>We can still make it</h1>
 						<div id="controls">
 							<button id="restartButton">Restart Animation</button>
@@ -90,14 +90,16 @@
 						</div>
 						<div id="my_dataviz"></div>
 						<div class="tooltip" style="opacity:0"></div>
-						<div id="text_box" style="margin-left: 20px; font-family: Arial, sans-serif;">
-							<p id="curve_info">Initial Curve Information</p>
+						<div id="my_dataviz"></div>
+						<div id="curve_info_container">
+							<p id="curve_info">Information about the initial curve.</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide" id="slide3">
 					<div id="sunburst-breadcrumbs"></div>
 					<div class="intro" id="sunburst-container">
+                        <div id="sunburst-breadcrumbs"></div>
 						<div id="sunburst-chart"></div>
 						<div id="sunburst-description"></div>
 						<button id="togglelegend">Toggle Legend</button>
@@ -156,29 +158,7 @@
 					}
 				}
 			});
-
-			(function() {
-				var sunburst = new Sunburst({
-					colors: {
-						"home": "#5687d1",
-						"product": "#7b615c",
-						"search": "#de783b",
-						"account": "#6ab975",
-						"other": "#a173d1",
-						"end": "#bbbbbb"
-					}
-				});
-				sunburst.loadCsv("data/visit-sequences.csv");
-
-				d3.select("#togglelegend").on("click", function() {
-					var legend = d3.select('#sunburst-legend');
-					if (legend.style("visibility") == "hidden") {
-						legend.style("visibility", "");
-					} else {
-						legend.style("visibility", "hidden");
-					}
-				});
-			})();
 		</script>
+        <script type="module" src="js/sunburst.js"></script>
 	</body>
 </html>

@@ -1,5 +1,6 @@
 :root {
 	--text-color: #FFFFFF;
+	--palette0: #E5D9B6;
 	--palette1: #E5D9B6;
 	--palette2: #A4BE7B;
 	--palette3: #5F8D4E;
@@ -116,7 +117,7 @@ h1 {
 
 #visualizerContainer {
 	display: grid;
-	grid-template-columns: 50% 50%
+	grid-template-columns: 50% 50%;
 }
 
 #globeContainer {
@@ -183,8 +184,7 @@ button:hover {
 
 svg {
 	display: block;
-	background-color: #fff;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: var(--palette1);;
 	border-radius: 8px;
 }
 
@@ -227,13 +227,39 @@ svg {
 	z-index: 2;
 }
 
-#sunburst-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: rgb(229, 217, 182); /* Change this to your desired background color */
+#sunburst-container,
+#timeseries-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: var(--palette1);
+	padding: 20px;
+	border-radius: 8px;
+	margin: 20px 0;
 }
 
+#curve_info_container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--palette1);
+    padding: 10px;
+    text-align: center;
+}
+
+#curve_info {
+    font-size: var(--basic-font-size);
+    color: var(--text-color);
+}
+
+#fading-text-container {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#fading-text-container.fade-in {
+    opacity: 1;
+}
