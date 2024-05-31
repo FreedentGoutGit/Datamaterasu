@@ -22,28 +22,20 @@ function loadImpactFully()
 {
     var canvas = new draw2d.Canvas("gfx_holder");
 
-    
-
-    //get the first "HeaderContainer" class
     var header = document.getElementsByClassName("HeaderContainer")[0];
-    //get his height
     var height = header.offsetHeight;
     DELATHEIGHT = height + 50;
 
 
-    //make the canvas same size as the div by class
     var div = document.getElementsByClassName("impactDiv")[0];
-    
-    //child in scg holder
     var parent = document.getElementById("gfx_holder");
     parent.style.height = div.offsetHeight;
     var child = parent.firstChild;
 
-    //set position of the child to 0
+    //style the child
     child.style.position = "relative";
     child.style.height = div.offsetHeight;
     child.style.width = div.offsetWidth;
-    //make no background color
     child.style.backgroundColor = "transparent";
 
     canvas.installEditPolicy(  new draw2d.policy.connection.DragConnectionCreatePolicy({
@@ -60,22 +52,15 @@ function loadImpactFully()
     }));
 
     makeTheMenuSelectable(canvas);
-
-    console.log("fully Loaded");
-
-
 }
 
 
 function makeTheMenuSelectable(canvas){
     var allMenues = document.getElementsByClassName("event");
     for(var i = 0; i < allMenues.length; i++){
-        allMenues[i].addEventListener("click", function(){
-            console.log("clicked");
-            //get attribute data-value
+        allMenues[i].addEventListener("click", function(){ // expand the of the selected category + remove all the last boxes and connection
             var value = this.getAttribute("data-value");
-            
-            //remove all the boxes and connections
+
             removeAll(canvas);
 
             var dataSelected = data.filter(function(d){
@@ -105,10 +90,7 @@ function removeAll(canvas){
     allConnections = [];
 }
 
-
-
-
-function addCOnnection(id1, id2, canvas){
+function addCOnnection(id1, id2, canvas){ // creates a connection between two boxes
     var connection = new draw2d.Connection({
         stroke:1,
         outlineStroke:1,
@@ -139,7 +121,6 @@ function AddAccordingToCategory(canvas, d, offsetY=0){
         return false;
     }
 
-    //check if the box is already in the canvas
     if(canvas.getFigure(d.Id) != null){
         return true;
     }
@@ -152,7 +133,7 @@ function AddAccordingToCategory(canvas, d, offsetY=0){
     var box = addBox(canvas, d, x, y, width, height);
 
     //add liserner when the window is resized
-    window.addEventListener("resize", function(){
+    window.addEventListener("resize", function(){ // Need to update the design of the boxes when the window is resized fixed size boxes draw2d.js...
         updateSize(box, canvas);
     });
 
@@ -160,24 +141,19 @@ function AddAccordingToCategory(canvas, d, offsetY=0){
     return true;
 }
 
-function updateSize(box, canvas){
+function updateSize(box, canvas){ // function to update the pos and size of the box when the window is resized
 
-    //get the first "HeaderContainer" class
     var header = document.getElementsByClassName("HeaderContainer")[0];
-    //get his height
     var height = header.offsetHeight;
     DELATHEIGHT = height + 50;
 
-
-    //make the canvas same size as the div by class
     var div = document.getElementsByClassName("impactDiv")[0];
     
-    //child in scg holder
     var parent = document.getElementById("gfx_holder");
     parent.style.height = div.offsetHeight;
     var child = parent.firstChild;
 
-    //set position of the child to 0
+
     child.style.position = "relative";
     child.style.height = div.offsetHeight;
     child.style.width = div.offsetWidth;
@@ -212,7 +188,7 @@ function getDataById(id){
     }
 }
 
-function getBestOffsetY(canvas, d){
+function getBestOffsetY(canvas, d){ // this function manages the position of the boxes in the y axis when spawned, it adatps the position of the box to avoid overlap
     console.log(d);
     var category = d.Category;
     
@@ -236,7 +212,6 @@ function getBestOffsetY(canvas, d){
     var i = 0;
     while(i < 1000){
         var possibleY = i*HEIGHTOFBOX+DELATHEIGHT;
-        //chek possiblre overlap with the other boxes
         var overlap = false;
         allY.forEach(function(e){
             if(Math.abs(e - possibleY) < 1.2*HEIGHTOFBOX){      
@@ -273,7 +248,7 @@ function getCorrectColor(d){
     }
 }
 
-function addBox(canvas, d, x, y, width, height){
+function addBox(canvas, d, x, y, width, height){ // this function interacts with the draw2d.js library to create a box
     var box = new BoundingboxFigure({id:d.id, x:x, y:y, width:width, height:height});
 
     box.setResizeable(false);
@@ -281,7 +256,6 @@ function addBox(canvas, d, x, y, width, height){
     box.setBackgroundColor(getCorrectColor(d));
 
     box.getHybridPort(0).setVisible(false);
-    //get the hybrid port of the box and put it to the right side
 
     box.on("click", function(emitter, event){
         console.log("clicked");         
@@ -291,8 +265,6 @@ function addBox(canvas, d, x, y, width, height){
 
         to = String(d.To);
 
-
-        //check if can find ";"
         if(to.includes(";") == true){
             expandNode =  d.To.split(";");
             expandNode.forEach(function(e){
@@ -330,15 +302,13 @@ function addBox(canvas, d, x, y, width, height){
         }
     }));
 
-    //create output port for the box on the right side and entry port on the left side
     box.createPort("output", new draw2d.layout.locator.RightLocator());
     box.createPort("input", new draw2d.layout.locator.LeftLocator());
 
-    //make the port invisible
     box.getOutputPort(0).setVisible(false);
     box.getInputPort(0).setVisible(false);    
 
-    //put the d.Name in the box
+    //create the text and put it in the center of the box
     var label = new draw2d.shape.basic.Label({
         text:d.Name,
         fontSize:"10rem",
@@ -357,17 +327,12 @@ function addBox(canvas, d, x, y, width, height){
     console.log(label.width);
 
     box.add(label, new draw2d.layout.locator.CenterLocator());
-    //make the label fit the box size
     label.installEditPolicy(new draw2d.policy.figure.AntSelectionFeedbackPolicy());
     
     
     box.id = d.Id;
-
     canvas.add(box);
-
     allFigs.push(box);
-
-
     
     return box;
 }
