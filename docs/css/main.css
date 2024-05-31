@@ -20,13 +20,7 @@ body {
 }
 
 h1 {
-	font-size: 50px;
-	text-align: center;
-	margin: 20px 0;
-}
-
-h1 {
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	margin: 20px 0;
 }
@@ -44,6 +38,22 @@ h1 {
 	font-size: var(--basic-font-size);
 	text-align: center;
 }
+
+#IntroGIF {
+	z-index: 1000;
+	width: 10%;
+	height: 10%;
+}
+
+#MainTitle {
+    color: white;
+    margin: 0 0.5em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    background-color: rgba(164,190,123, 0.8); /* 0.8 means 80% opaque */
+}
+
 
 .section ul {
 	list-style-type: none;
@@ -172,7 +182,7 @@ button {
 }
 
 button:hover {
-	background-color: var(--selected);
+	background-color: var(--palette2);
 }
 
 #my_dataviz {
@@ -272,6 +282,7 @@ nav {
     text-align: center;
     z-index: 1000;
 }
+
 nav a {
     color: white;
     margin: 0 1em;
@@ -304,4 +315,13 @@ nav a:hover {
 .pop-in {
     opacity: 1;
     transform: scale(1);
+}
+
+
+#sunburst-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }

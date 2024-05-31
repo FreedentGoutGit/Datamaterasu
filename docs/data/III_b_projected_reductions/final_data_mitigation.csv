@@ -1,79 +1,79 @@
 Path,Quantity (in GtCO2e)
 ENERGY-Solar-<0$,2.7
 ENERGY-Wind-<0$,2.31
-"ENERGY-Reduce CH4 from coal, oil and gas-<0$",0.35
-ENERGY-Nuclear-<0$,0.176
-SETTLEMENTS AND INFRASTRUCTURE-Fuel efficient vehicles-<0$,0.92
-"SETTLEMENTS AND INFRASTRUCTURE-Efficient lighting, appliances and equipment-<0$",0.726
-SETTLEMENTS AND INFRASTRUCTURE-Public transport and bicycling-<0$,0.72
-SETTLEMENTS AND INFRASTRUCTURE-Efficient shipping and aviation-<0$,0.69
-SETTLEMENTS AND INFRASTRUCTURE-Avoid demand for energy services-<0$,0.557
-INDUSTRY AND WASTE-Reduce emission of fluorinated gas-<0$,0.26
-INDUSTRY AND WASTE-Reduce CH4 from waste/wastewater-<0$,0.35
+"ENERGY-Reduce CH4 from coal, oil & gas-<0$",0.35
+ENERGY-Nuclear-<0$,0.18
+INFRASTRUCTURE-Fuel efficient vehicles-<0$,0.92
+"INFRASTRUCTURE-Efficient appliances-<0$",0.73
+INFRASTRUCTURE-Public transport & bikes-<0$,0.72
+INFRASTRUCTURE-Efficient shipping & aviation-<0$,0.69
+INFRASTRUCTURE-Avoid demand for energy services-<0$,0.56
+INDUSTRY & WASTE-Reduce emission of fluorinated gas-<0$,0.26
+INDUSTRY & WASTE-Reduce CH4 waste-<0$,0.35
 ENERGY-Solar-0 to 20$,0.6
 ENERGY-Wind-0 to 20$,0.77
-"ENERGY-Reduce CH4 from coal, oil and gas-0 to 20$",1.02
-ENERGY-Geothermal and hydropower-0 to 20$,0.35
-ENERGY-Nuclear-0 to 20$,0.176
-"LAND, WATER, FOOD-Reduce conversion of natural ecosystems-0 to 20$",2.28
+"ENERGY-Reduce CH4 fossil fuels-0 to 20$",1.02
+ENERGY-Geothermal & hydropower-0 to 20$,0.35
+ENERGY-Nuclear-0 to 20$,0.18
+"LAND, WATER, FOOD-Conserve natural ecosystems-0 to 20$",2.28
 "LAND, WATER, FOOD-Carbon sequestration in agriculture-0 to 20$",0.5
-"LAND, WATER, FOOD-Ecosystem restoration, afforestation, reforestation-0 to 20$",0.15
-"LAND, WATER, FOOD-Forest and fire management-0 to 20$",0.38
-"LAND, WATER, FOOD-Reduce CH4 and N2O in agriculture-0 to 20$",0.35
-SETTLEMENTS AND INFRASTRUCTURE-Efficient buildings-0 to 20$,0.18
-SETTLEMENTS AND INFRASTRUCTURE-Biofuels-0 to 20$,0.23
-SETTLEMENTS AND INFRASTRUCTURE-Onsite renewables-0 to 20$,0.067
-INDUSTRY AND WASTE-Reduce emission of fluorinated gas-0 to 20$,0.68
-INDUSTRY AND WASTE-Energy efficiency-0 to 20$,1.14
-INDUSTRY AND WASTE-Reduce CH4 from waste/wastewater-0 to 20$,0.14
+"LAND, WATER, FOOD-Ecosystem restoration-0 to 20$",0.15
+"LAND, WATER, FOOD-Forest & fire management-0 to 20$",0.38
+"LAND, WATER, FOOD-Reduce CH4 & N2O in agriculture-0 to 20$",0.35
+INFRASTRUCTURE-Efficient buildings-0 to 20$,0.18
+INFRASTRUCTURE-Biofuels-0 to 20$,0.23
+INFRASTRUCTURE-Onsite renewables-0 to 20$,0.07
+INDUSTRY & WASTE-Reduce emission of fluorinated gas-0 to 20$,0.68
+INDUSTRY & WASTE-Energy efficiency-0 to 20$,1.14
+INDUSTRY & WASTE-Reduce CH4 from waste-0 to 20$,0.14
 ENERGY-Solar-20 to 50$,0.6
 ENERGY-Wind-20 to 50$,0.77
-"ENERGY-Reduce CH4 from coal, oil and gas-20 to 50$",0.1
-ENERGY-Geothermal and hydropower-20 to 50$,0.35
-ENERGY-Nuclear-20 to 50$,0.176
-"LAND, WATER, FOOD-Reduce conversion of natural ecosystems-20 to 50$",0.12
+"ENERGY-Reduce CH4 from coal, oil & gas-20 to 50$",0.1
+ENERGY-Geothermal & hydropower-20 to 50$,0.35
+ENERGY-Nuclear-20 to 50$,0.18
+"LAND, WATER, FOOD-Conserve natural ecosystems-20 to 50$",0.12
 "LAND, WATER, FOOD-Carbon sequestration in agriculture-20 to 50$",0.73
-"LAND, WATER, FOOD-Ecosystem restoration, afforestation, reforestation-20 to 50$",0.57
-SETTLEMENTS AND INFRASTRUCTURE-Efficient buildings-20 to 50$,0.18
-SETTLEMENTS AND INFRASTRUCTURE-Biofuels-20 to 50$,0.23
-SETTLEMENTS AND INFRASTRUCTURE-Onsite renewables-20 to 50$,0.067
-INDUSTRY AND WASTE-Fuel switching-20 to 50$,1.28
-INDUSTRY AND WASTE-Reduce emission of fluorinated gas-20 to 50$,0.18
-INDUSTRY AND WASTE-Material efficiency-20 to 50$,0.93
-INDUSTRY AND WASTE-Reduce CH4 from waste/wastewater-20 to 50$,0.1
-INDUSTRY AND WASTE-Construction materials substitution-20 to 50$,0.28
-INDUSTRY AND WASTE-Enhanced recycling-20 to 50$,0.48
-INDUSTRY AND WASTE-Carbon capture with usage-20 to 50$, 
+"LAND, WATER, FOOD-Ecosystem restoration-20 to 50$",0.57
+INFRASTRUCTURE-Efficient buildings-20 to 50$,0.18
+INFRASTRUCTURE-Biofuels-20 to 50$,0.23
+INFRASTRUCTURE-Onsite renewables-20 to 50$,0.07
+INDUSTRY & WASTE-Fuel switching-20 to 50$,1.28
+INDUSTRY & WASTE-Reduce emission of fluorinated gas-20 to 50$,0.18
+INDUSTRY & WASTE-Material efficiency-20 to 50$,0.93
+INDUSTRY & WASTE-Reduce CH4 from waste-20 to 50$,0.1
+INDUSTRY & WASTE-Construction materials substitution-20 to 50$,0.28
+INDUSTRY & WASTE-Enhanced recycling-20 to 50$,0.48
+INDUSTRY & WASTE-Carbon capture with usage-20 to 50$, 
 ENERGY-Solar-50 to 100$,0.6
-"ENERGY-Reduce CH4 from coal, oil and gas-50 to 100$",0.08
+"ENERGY-Reduce CH4 from coal, oil & gas-50 to 100$",0.08
 ENERGY-Bioelectricity (includes BECCS)-50 to 100$,0.58
-ENERGY-Geothermal and hydropower-50 to 100$,0.35
-ENERGY-Nuclear-50 to 100$,0.176
-ENERGY-Fossil Carbon Capture and Storage (CCS)-50 to 100$,0.27
-"LAND, WATER, FOOD-Reduce conversion of natural ecosystems-50 to 100$",1.63
+ENERGY-Geothermal & hydropower-50 to 100$,0.35
+ENERGY-Nuclear-50 to 100$,0.18
+ENERGY-Fossil Carbon Capture & Storage (CCS)-50 to 100$,0.27
+"LAND, WATER, FOOD-Conserver natural ecosystems-50 to 100$",1.63
 "LAND, WATER, FOOD-Carbon sequestration in agriculture-50 to 100$",2.21
-"LAND, WATER, FOOD-Ecosystem restoration, afforestation, reforestation-50 to 100$",1.46
-"LAND, WATER, FOOD-Forest and fire management-50 to 100$",0.78
-"LAND, WATER, FOOD-Reduce CH4 and N2O in agriculture-50 to 100$",0.28
-SETTLEMENTS AND INFRASTRUCTURE-Efficient buildings-50 to 100$,0.18
-SETTLEMENTS AND INFRASTRUCTURE-Biofuels-50 to 100$,0.23
-SETTLEMENTS AND INFRASTRUCTURE-Onsite renewables-50 to 100$,0.067
-INDUSTRY AND WASTE-Fuel switching-50 to 100$,0.667
-INDUSTRY AND WASTE-Reduce emission of fluorinated gas-50 to 100$,0.09
-INDUSTRY AND WASTE-Reduce CH4 from waste/wastewater-50 to 100$,0.07
-"ENERGY-Reduce CH4 from coal, oil and gas-100 to 200$",0.1
+"LAND, WATER, FOOD-Ecosystem restoration-50 to 100$",1.46
+"LAND, WATER, FOOD-Forest & fire management-50 to 100$",0.78
+"LAND, WATER, FOOD-Reduce CH4 & N2O in agriculture-50 to 100$",0.28
+INFRASTRUCTURE-Efficient buildings-50 to 100$,0.18
+INFRASTRUCTURE-Biofuels-50 to 100$,0.23
+INFRASTRUCTURE-Onsite renewables-50 to 100$,0.07
+INDUSTRY & WASTE-Fuel switching-50 to 100$,0.67
+INDUSTRY & WASTE-Reduce emission of fluorinated gas-50 to 100$,0.09
+INDUSTRY & WASTE-Reduce CH4 from waste-50 to 100$,0.07
+"ENERGY-Reduce CH4 from coal, oil & gas-100 to 200$",0.1
 ENERGY-Bioelectricity (includes BECCS)-100 to 200$,0.58
-ENERGY-Nuclear-100 to 200$,0.176
-ENERGY-Fossil Carbon Capture and Storage (CCS)-100 to 200$,0.27
-"LAND, WATER, FOOD-Ecosystem restoration, afforestation, reforestation-100 to 200$",0.66
-"LAND, WATER, FOOD-Forest and fire management-100 to 200$",0.22
-SETTLEMENTS AND INFRASTRUCTURE-Efficient buildings-100 to 200$,0.9
-SETTLEMENTS AND INFRASTRUCTURE-Onsite renewables-100 to 200$,0.27
-INDUSTRY AND WASTE-Fuel switching-100 to 200$,0.152
-INDUSTRY AND WASTE-Reduce emission of fluorinated gas-100 to 200$,0.03
-INDUSTRY AND WASTE-Reduce CH4 from waste/wastewater-100 to 200$,0.15
-INDUSTRY AND WASTE-Carbon capture with usage-100 to 200$,0.152
+ENERGY-Nuclear-100 to 200$,0.18
+ENERGY-Fossil Carbon Capture & Storage (CCS)-100 to 200$,0.27
+"LAND, WATER, FOOD-Ecosystem restoration-100 to 200$",0.66
+"LAND, WATER, FOOD-Forest & fire management-100 to 200$",0.22
+INFRASTRUCTURE-Efficient buildings-100 to 200$,0.9
+INFRASTRUCTURE-Onsite renewables-100 to 200$,0.27
+INDUSTRY & WASTE-Fuel switching-100 to 200$,0.15
+INDUSTRY & WASTE-Reduce emission of fluorinated gas-100 to 200$,0.03
+INDUSTRY & WASTE-Reduce CH4 from waste-100 to 200$,0.15
+INDUSTRY & WASTE-Carbon capture with usage-100 to 200$,0.15
 "LAND, WATER, FOOD-Shift to sustainable healthy diets-Unknown",1.7
-"LAND, WATER, FOOD-Reduce food loss and food waste -Unknown",0.5
-SETTLEMENTS AND INFRASTRUCTURE-Electric vehicles-Unknown,0.8
-INDUSTRY AND WASTE-Construction materials substitution-Unknown,0.38
+"LAND, WATER, FOOD-Reduce food loss & food waste -Unknown",0.5
+INFRASTRUCTURE-Electric vehicles-Unknown,0.8
+INDUSTRY & WASTE-Construction materials substitution-Unknown,0.38

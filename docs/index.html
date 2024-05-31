@@ -53,8 +53,7 @@
                     <source src="data/intro_background.mp4" type="video/mp4">
                 </video>
                 <div class="layer">
-                    <p>Datamaterasu group website</p>
-                    <h1>Climate change according to the IPCC</h1>
+                    <h1 id="MainTitle">Climate change & the IPCC</h1>
                     <p>We want to explore the effects of CO2 and GHG gas emissions on the environment, as well as potential solutions.</p>
                     <p>We have divided our work into three parts according to the 3 main bodies of work published by the IPCC working groups</p>
                     <nav>
@@ -69,10 +68,10 @@
         <div class="section" id="section1" data-anchor="Emissions">
             <div class="intro" style="width: 80%; margin-left: 10%;">
                 <h1>Emissions and emitors</h1>
-                <p class="pop">Since the industrial revolution, a few countries have been the major emitters of GHG and CO2. The United States, China, and European nations have contributed the most to these emissions.</p>
-                <p class="pop">Burning fossil fuels like coal, oil, and gas releases CO2, trapping heat in the atmosphere. This greenhouse effect causes global warming and climate change.</p>
-                <p class="pop">CO2 and other GHGs disrupt the Earth's energy balance, leading to rising temperatures, melting ice caps, and extreme weather events. The historical emissions from these countries highlight the need for global cooperation to address climate change.</p>
-                <h2 class="pop">Let's visualize the history of our globe's emissions</h2>    
+                <p class="pop">Since the <strong>industrial revolution</strong>, a few countries have been the major emitters of <strong>GHG and CO2</strong>. The United States, China, and European nations have contributed the most to these emissions.</p>
+                <p class="pop">Burning fossil fuels like coal, oil, and gas releases CO2, <strong>trapping heat</strong> in the atmosphere. This greenhouse effect causes global warming and climate change.</p>
+                <p class="pop">CO2 and other GHGs disrupt the Earth's <ground>energy balance</ground>, leading to rising temperatures, melting ice caps, and extreme weather events. The historical emissions from these countries highlight the need for global cooperation to address climate change.</p>
+                <h2 class="pop">Let's visualize the history of our globe's emissions by city & country</h2> 
             </div>
         </div>
 
@@ -135,27 +134,29 @@
         </div>
 
         <div class="section" id="section6" data-anchor="Sub15CScenarios">
+			<div class="intro">
 			<h1>Emission projections</h1>
+			<div id="curve_info_container">
+    			<p id="curve_info">Information about the initial curve.</p>	
+			</div>
+
             <div id="controls">
                 <button id="restartButton">Start</button>
                 <button id="startStopButton">Stop</button>
             </div>
             <div id="my_dataviz"></div>
             <div class="tooltip" style="opacity:0"></div>
-            <div id="curve_info_container">
-                <p id="curve_info">Information about the initial curve.</p>
-            </div>
+			</div>
         </div>
 
         <div class="section" id="section7" data-anchor="MainReductions2030">
-            <div id="sunburst-breadcrumbs"></div>
-            <div class="intro" id="sunburst-container">
-                <div id="sunburst-breadcrumbs"></div>
-                <div id="sunburst-chart"></div>
-                <div id="sunburst-description"></div>
-                <button id="togglelegend">Toggle Legend</button>
-                <div id="sunburst-legend" style="visibility: hidden;"></div>
-            </div>
+			<div id="sunburst-breadcrumbs"></div>
+				<div class="intro" id="sunburst-container">
+					<div id="sunburst-chart"></div>
+					<div id="sunburst-legend" style="visibility: hidden;"></div>
+				</div>
+				<h2>Most promising emission reduction areas (in Gigatons of CO2)</h2>
+				<h2>and their projected prices</h2>
         </div>
     </div>
 
@@ -177,6 +178,12 @@
                     loadAndPlotData(); // Start the animation when entering the chart section
                 }
                 if (destination.index == 1) {
+                    popElements();
+                }
+				if (destination.index == 3) {
+                    popElements();
+                }
+				if (destination.index == 5) {
                     popElements();
                 }
             }
