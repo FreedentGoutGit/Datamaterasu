@@ -192,12 +192,12 @@ function loadAndPlotData(resume = false) {
     "./data/III_a_projected_scenarios/2_deg.csv",
     "./data/III_a_projected_scenarios/2_or_1_5_overshoot.csv"
   ];
-  var colors = ["#cce5df", "#ffcccb", "#add8e6", "#ffa07a"];
+  var colors = ["#A4BE7B", "#5F8D4E", "#285430", "#082d0f"];
 
   if (!resume) {
     // Plot the initial dataset and keep it displayed
     d3.csv(init).then(data => {
-      plotDataInit(data, "#cce5df", 1000);
+      plotDataInit(data, "#b5a05f", 1000);
     }).catch(error => {
       console.error('Error loading or parsing CSV file:', error);
     });

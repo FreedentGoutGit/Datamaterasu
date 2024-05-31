@@ -5,6 +5,7 @@
 	--palette2: #A4BE7B;
 	--palette3: #5F8D4E;
 	--palette4: #285430;
+	--palette5: #082d0f;
 	--selected: #0056b3;
 	--basic-font-size: 18px;
 }
@@ -288,7 +289,7 @@ nav a {
 }
 nav a:hover {
     background: var(--palette2);
-    color: var(--palette1);
+    color: white;
 }
 
 .sourceImpact {
