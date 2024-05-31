@@ -75,19 +75,16 @@
                 <div class="sourceImpact pop">
                     <p>Source: World Economic Forum : Insight report January 2024</p>
                 </div>
-                <h2 class="pop"> How is this happening and what can we do ?</h2>    
+                <h2 class="pop"> How is this happening and what can we do ?</h2>
             </div>
         </div>
 
         <div class="section" id="section2" data-anchor="GlobeViz">
             <div id="visualizerContainer">
-                <div id="globeContainer">
-                    <div id="globeControls">
-                        <p style="margin-bottom: 0">Filter</p>
-                        <button type="button" id="filterCountry">Countries</button>
-                        <button type="button" id="filterCity">Cities</button>
-                    </div>
-                    <div id="globeViz"></div>
+							<div id="globeContainer" class="globeContainer" style="grid-column: 2">
+										<div></div>
+										<h1>OWID - CO2 Emissions by Country</h1>
+                    <div id="globeVizCountries"></div>
                     <div id="progressBarContainer">
                         <button id="playPauseButton" class="control-button">
                             <i id="playPauseIcon" class="fas fa-play"></i>
@@ -98,6 +95,11 @@
                         <div id="yearDisplay">1990</div>
                     </div>
                 </div>
+								<div class="globeContainer" style="grid-column: 4">
+									<div></div>
+									<h1>GGMCF Top 500 Cities</h1>
+									<div id="globeVizCities"></div>
+								</div>
             </div>
         </div>
 
@@ -110,7 +112,7 @@
                 <div class="sourceImpact pop">
                     <p>Source: World Economic Forum : Insight report January 2024</p>
                 </div>
-                <h2 class="pop"> How is this happening and what can we do ?</h2>    
+                <h2 class="pop"> How is this happening and what can we do ?</h2>
             </div>
         </div>
 
