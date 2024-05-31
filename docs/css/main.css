@@ -237,3 +237,11 @@ svg {
     background-color: rgb(229, 217, 182); /* Change this to your desired background color */
 }
 
+
+.sourceImpact {
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #555;
+}
