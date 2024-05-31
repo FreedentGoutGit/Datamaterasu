@@ -14,20 +14,6 @@ var svg = d3.select("#my_dataviz")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// Define the tooltip
-var tooltip = d3.select("body")  // Append to body for proper positioning
-    .append("div")
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "white")
-    .style("border", "solid")
-    .style("border-width", "2px")
-    .style("border-radius", "5px")
-    .style("padding", "5px")
-    .style("position", "absolute")
-    .style("pointer-events", "none")
-    .style("z-index", "9999");  // Ensure it has the highest z-index
-
 // Add X axis
 var x = d3.scaleLinear()
     .domain([2000, 2050])
@@ -49,31 +35,7 @@ svg.append("g")
     .style("font-size", "12px")
     .style("fill", "#333");
 
-// Define the event listeners for the tooltip
-var mouseover = function(event, d) {
-    tooltip
-        .style("opacity", 1);
-    d3.select(this)
-        .style("stroke-width", 3);
-};
-
-var mousemove = function(event, d) {
-    var datum = d3.select(this).datum();
-    tooltip
-        .html("X: " + d3.format(".2f")(datum.x) + "<br>Y: " + d3.format(".2f")(datum.y))
-        .style("left", (event.pageX + 15) + "px")
-        .style("top", (event.pageY - 28) + "px");
-};
-
-var mouseleave = function(event, d) {
-    tooltip
-        .style("opacity", 0);
-    d3.select(this)
-        .style("stroke-width", 2);
-};
-
 function plotData(data, color, duration = 1000, keep = false) {
-    console.log(color)
     data = data.filter(d => d.x && d.CI_left && d.CI_right)
         .map(d => ({x: +d.x, CI_left: +d.CI_left, y: +d.y, CI_right: +d.CI_right}));
 
@@ -113,19 +75,11 @@ function plotData(data, color, duration = 1000, keep = false) {
         .transition()
         .duration(duration)
         .attr("opacity", 1);
-
-    // Add interactive cursor with tooltips to timeseries
-    svg.selectAll(".timeseries")
-        .on("mouseover", mouseover)
-        .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave);
 }
 
 function plotDataInit(data, color, duration = 1000) {
-    console.log(data)
     data = data.filter(d => d.y)
         .map(d => ({x: +d.x, y: +d.y, CI_left: +d.CI_left, CI_right: +d.CI_right}));
-    console.log(data)
 
     // Show confidence interval
     var areaPath = svg.append("path")
@@ -158,21 +112,15 @@ function plotDataInit(data, color, duration = 1000) {
         .transition()
         .duration(duration)
         .attr("opacity", 1);
-
-    // Add interactive cursor with tooltips for initial data
-    svg.selectAll(".initial-timeseries")
-        .on("mouseover", mouseover)
-        .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave);
 }
 
 function updateTextBox(index) {
     var texts = [
-        "Information about the initial curve.",
-        "Information about the current scenario curve.",
-        "Information about the 1.5 degree scenario curve.",
-        "Information about the 2 degree scenario curve.",
-        "Information about the 2 or 1.5 degree overshoot scenario curve."
+        "Our CO2 and GhG emissions have kept rising over the years (here in Gigatones/year)",
+        "With the currently implemented policies, we are headed for a slow, but steady rise, making the 1.5C target impossible to reach",
+        "If we take immediate action, we can still keep heating under 1.5C as in this scenario!",
+        "But it has to be drastic, or we could be going for a 2C+ heating",
+        "Or a 2 or 1.5 degree overshoot scenario curve where some, but not all, of the damage will be avoided"
     ];
     d3.select("#curve_info").text(texts[index]);
 }
@@ -208,14 +156,14 @@ function loadAndPlotData(resume = false) {
     intervals = [];
 
     // Calculate remaining times if resuming
-    var baseDelay = resume ? timeRemaining[currentIndex] : 3000;
+    var baseDelay = resume ? timeRemaining[currentIndex] : 5000;
     for (let i = currentIndex; i < datasets.length + 1; i++) {
         const dataset = datasets[i];
-        const delay = (i === currentIndex && resume) ? baseDelay : (i + 1) * 3000;
+        const delay = (i === currentIndex && resume) ? baseDelay : (i + 1) * 5000;
 
         var timeout = setTimeout(() => {
             d3.csv(dataset).then(data => {
-                plotData(data, colors[i + 1], 1000);
+                plotData(data, colors[i + 1], 2000);
                 currentIndex = i + 1;
                 updateTextBox(currentIndex);  // Update the text box for the new curve
                 if (currentIndex === datasets.length + 1) {
@@ -236,7 +184,7 @@ function fadeInAllDatasets(datasets, colors) {
     svg.selectAll(".timeseries").remove(); // Remove previous timeseries before adding them back
     datasets.forEach((dataset, index) => {
         d3.csv(dataset).then(data => {
-            plotData(data, colors[index + 1], 1000, true);
+            plotData(data, colors[index + 1], 2000, true);
         }).catch(error => {
             console.error('Error loading or parsing CSV file:', error);
         });

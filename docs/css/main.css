@@ -240,25 +240,24 @@ svg {
 
 #sunburst-container,
 #timeseries-container {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: auto;
 	width: 100%;
 	box-sizing: border-box;
 	background-color: var(--palette1);
-	padding: 20px;
 	border-radius: 8px;
 	margin: 20px 0;
 }
 
 #curve_info_container {
-    position: fixed;
+    position: center;  /* Changed to absolute positioning */
     bottom: 0;
-    width: 100%;
+    width: 80%;
     background-color: var(--palette1);
-    padding: 10px;
     text-align: center;
+	padding: 20px;
+    color: var(--text-color);
 }
 
 #curve_info {
