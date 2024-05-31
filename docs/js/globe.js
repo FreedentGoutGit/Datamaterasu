@@ -16,6 +16,8 @@ const getFootprint = (city) => city["footprint (Mt CO2)"];
 
 const vw_to_px = (vw) => document.documentElement.clientWidth / 100 * vw;
 const vh_to_px = (vh) => document.documentElement.clientHeight / 100 * vh;
+const globeVizWidth = vw_to_px(35);
+const globeVizHeight = vh_to_px(65);
 
 document.addEventListener('DOMContentLoaded', () => {
 	Promise.all([
@@ -33,16 +35,32 @@ document.addEventListener('DOMContentLoaded', () => {
 			const maxCityFootprint = Math.max(...ggmcf_data.map(getFootprint))
 			const maxHeight = 0.5;
 
-			const world = Globe()
+			const worldCountries = Globe()
 				.globeImageUrl('//unpkg.com/three-globe/example/img/earth-day.jpg')
 				.backgroundColor("#E5D9B6")
-				.width(0.7 * vw_to_px(50))
-				.height(0.6 * vh_to_px(100))
+				.width(globeVizWidth)
+				.height(globeVizHeight)
 				.lineHoverPrecision(0)
 				.showAtmosphere(false)
+				(document.getElementById("globeVizCountries"));
+
+			// initialize view to Lausanne, Switzerland
+			worldCountries.pointOfView({'lat': 46.5218269, 'lng': 6.6327025});
+
+			const worldCities = Globe()
+				.globeImageUrl('//unpkg.com/three-globe/example/img/earth-day.jpg')
+				.backgroundColor("#E5D9B6")
+				.width(globeVizWidth)
+				.height(globeVizHeight)
+				.lineHoverPrecision(0)
+				.showAtmosphere(false)
+				(document.getElementById("globeVizCities"));
+
+			// initialize view to Lausanne, Switzerland
+			worldCities.pointOfView({'lat': 46.5218269, 'lng': 6.6327025});
 
 			// set polygon layer settings for countries
-			world
+			worldCountries
 				.polygonAltitude(0.05)
 				.polygonCapColor(({properties: d}) => getColor(owid_data[d.ISO_A3], currentYear))
 				.polygonSideColor(() => 'rgba(0, 100, 0, 0.15)')
@@ -67,9 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
 						`
 				})
 				.polygonsTransitionDuration(300)
+				.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'))
 
 			// set points layer settings for cities
-			world
+			worldCities
 				.pointLabel(city => `
 					<b>${city.city}, ${city.country}</b> <br />
 					<b>Global Ranking:</b> ${city['global ranking']} <br />
@@ -77,15 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
 				`)
 				.pointAltitude(city => getFootprint(city) / maxCityFootprint * maxHeight)
 				.pointColor(city => cityColorScale(getFootprint(city) / maxCityFootprint))
-				.pointRadius(0.4);
-
-			// initialize with country layer
-			world
-				.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'))
-			(document.getElementById('globeViz'))
-
-			// initialize view to Lausanne, Switzerland
-			world.pointOfView({'lat': 46.5218269, 'lng': 6.6327025, 'altitude': 1.5});
+				.pointRadius(0.4)
+				.pointsData(ggmcf_data);
 
 			document.addEventListener('yearChanged', function(event) {
 				const currentYear = event.detail.currentYear;
@@ -94,38 +106,11 @@ document.addEventListener('DOMContentLoaded', () => {
 				// countryColorScale.domain([minVal, maxVal]);
 				countryColorScale.domain([-0.5, maxVal]);
 
-				world.polygonCapColor(({ properties: d }) => {
+				worldCountries.polygonCapColor(({ properties: d }) => {
 					const country = owid_data[d.ISO_A3];
 					return getColor(country, currentYear);
 				})
 			});
-
-
-			const progressBar = document.getElementById("progressBarContainer");
-			const visualizerContent = document.getElementById("visualizerContent");
-
-			// initialize with country info
-			visualizerContent.innerHTML = countryInfo;
-
-			document.getElementById("filterCity").onclick = function() {
-				// remove country layer data, add city layer data
-				world
-					.polygonsData([])
-					.pointsData(ggmcf_data)
-
-				progressBar.style.display = "none";
-				visualizerContent.innerHTML = cityInfo;
-			};
-
-			document.getElementById("filterCountry").onclick = function() {
-				// remove city layer data, add country layer data
-				world
-					.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'))
-					.pointsData([])
-
-				progressBar.style.display = "flex";
-				visualizerContent.innerHTML = countryInfo;
-			};
 		})
 		.catch(error => console.error("Error fetching data (countries): ", error));
 });

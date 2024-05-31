@@ -78,13 +78,10 @@
 
         <div class="section" id="section2" data-anchor="GlobeViz">
             <div id="visualizerContainer">
-                <div id="globeContainer">
-                    <div id="globeControls">
-                        <p style="margin-bottom: 0">Filter</p>
-                        <button type="button" id="filterCountry">Countries</button>
-                        <button type="button" id="filterCity">Cities</button>
-                    </div>
-                    <div id="globeViz"></div>
+							<div id="globeContainer" class="globeContainer" style="grid-column: 2">
+										<div></div>
+										<h1>OWID - CO2 Emissions by Country</h1>
+                    <div id="globeVizCountries"></div>
                     <div id="progressBarContainer">
                         <button id="playPauseButton" class="control-button">
                             <i id="playPauseIcon" class="fas fa-play"></i>
@@ -95,6 +92,11 @@
                         <div id="yearDisplay">1990</div>
                     </div>
                 </div>
+								<div class="globeContainer" style="grid-column: 4">
+									<div></div>
+									<h1>GGMCF Top 500 Cities</h1>
+									<div id="globeVizCities"></div>
+								</div>
             </div>
         </div>
 
@@ -169,7 +171,7 @@
             credits: { enabled: false },
             scrollingSpeed: 1000,
             controlArrows: false,
-            normalScrollElements: "#globeViz",
+            normalScrollElements: "#globeVizCountries, #globeVizCities",
             afterLoad: function(origin, destination, direction) {
                 if (destination.index === 6 && destination.item.querySelector('#my_dataviz')) {
                     loadAndPlotData(); // Start the animation when entering the chart section
