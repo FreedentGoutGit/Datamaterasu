@@ -7,7 +7,7 @@
 | Victor Pennacino | 310608 |
 | Hod Kimhi        | 385031 |
 
-The full milestone 1 report can be found [here](https://github.com/FreedentGoutGit/Datamaterasu/blob/master/milestones/milestone-1/milestone-1.md)
+The full milestone 1 report can be found [here](https://github.com/FreedentGoutGit/Datamaterasu/blob/master/milestones/milestone-1/milestone-1.md), with exploratory data analysis available [here](https://github.com/FreedentGoutGit/Datamaterasu/blob/master/milestones/milestone-1/pre_analysis.ipynb)
 
 The full milestone 2 report can be found [here](https://github.com/FreedentGoutGit/Datamaterasu/blob/master/milestones/milestone-2/milestone-2.md), with commit [88dd33d](https://github.com/FreedentGoutGit/Datamaterasu/tree/88dd33d499e61ad31f065c5988323332d10469e1) representing the initial website prototype and structure
 
@@ -15,9 +15,9 @@ The process book and screencast for milestone 3 can be found [here](https://gith
 
 ## Table of Contents:
 - [Project structure](#repo-project-structure)
-- [Milestone 1](#milestone-1)
-- [Milestone 2](#milestone-2)
-- [Milestone 3](#milestone-3)
+- [Milestone 1](#milestone-2-26th-april-5pm)
+- [Milestone 2](#milestone-2-26th-april-5pm)
+- [Milestone 3](#milestone-3-31st-may-5pm)
 
 ## Repo / Project structure
 
@@ -28,7 +28,7 @@ root
 |- docs/        # website entry point
 |- milestones/  # milestone reports and associated data
 |- src/         # contains scripts for pre-processing and filtering data
-|- README.md
+|- README.md    # this file
 ```
 
 The website is run out of the `docs/` directory, with subdirectories organized as follows:
@@ -43,7 +43,7 @@ docs
 |- index.html   # website entry point
 ```
 
-To run the website locally, one simply needs to run a local server (such as through [live-server](https://tapiov.net/live-server/) or running `python -m http.server`) in the `docs/` directory.
+To run the website locally, one simply needs to run a local server (such as through [live-server](https://tapiov.net/live-server/) or running `python -m http.server`) in the `docs/` directory. There are no installable dependencies, we use simple HTML, CSS, and JavaScript and load D3.js and other modules through the use of CDNs and `<script>` tags.
 
 The GitHub pages website points to the `master` branch, so any updates to this branch will deploy and publish directly to [https://freedentgoutgit.github.io/Datamaterasu/](https://freedentgoutgit.github.io/Datamaterasu/)
 
