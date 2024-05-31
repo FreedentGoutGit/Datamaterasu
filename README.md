@@ -14,12 +14,12 @@ The full milestone 2 report can be found [here](https://github.com/FreedentGoutG
 The process book and screencast for milestone 3 can be found [here](https://github.com/FreedentGoutGit/Datamaterasu/tree/master/milestones/milestone-3)
 
 ## Table of Contents:
-- [Project structure](#repo-project-structure)
-- [Milestone 1](#milestone-2-26th-april-5pm)
+- [Project and Website Structure](#project-and-website-structure)
+- [Milestone 1](#milestone-1-29th-march-5pm)
 - [Milestone 2](#milestone-2-26th-april-5pm)
 - [Milestone 3](#milestone-3-31st-may-5pm)
 
-## Repo / Project structure
+## Project and Website Structure
 
 The project is structured as follows:
 ```
