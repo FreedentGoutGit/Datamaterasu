@@ -286,7 +286,6 @@ function addBox(canvas, d, x, y, width, height){
     box.on("click", function(emitter, event){
         console.log("clicked");         
         if(d.To == null){
-            alert("No connection");
             return;
         }
 
@@ -342,7 +341,7 @@ function addBox(canvas, d, x, y, width, height){
     //put the d.Name in the box
     var label = new draw2d.shape.basic.Label({
         text:d.Name,
-        fontSize:"8rem",
+        fontSize:"10rem",
         stroke:0,
         fontColor:"#ffffff",
         radius:1,
