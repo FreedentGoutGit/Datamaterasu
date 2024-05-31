@@ -30,6 +30,7 @@ Our goal is to bridge the gap between projected climate scenarios and practical 
 
 ## Exploratory Data Analysis
 
+See [pre_analysis.ipynb](https://github.com/FreedentGoutGit/Datamaterasu/blob/master/milestones/milestone-1/pre_analysis.ipynb)
 
 ## Related Work
 [IPCC 6th report](https://www.ipcc.ch/assessment-report/ar6/)
