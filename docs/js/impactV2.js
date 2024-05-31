@@ -77,7 +77,7 @@ function loadImpactFully()
 		child.style.width = "100%";
     child.style.position = "relative";
     child.style.height = div.offsetHeight;
-    child.style.width = div.offsetWidth;
+    child.style.width = div.offsetWidth + 200;
     child.style.backgroundColor = "transparent";
 
     canvas.installEditPolicy(  new draw2d.policy.connection.DragConnectionCreatePolicy({
@@ -198,13 +198,14 @@ function updateSize(box, canvas){ // function to update the pos and size of the 
 
     child.style.position = "relative";
     child.style.height = div.offsetHeight;
-    child.style.width = div.offsetWidth;
+    child.style.width = div.offsetWidth + 200;
 
     var category = getDataById(box.id).Category;
 
     var col = document.getElementById(category);
     var width = col.offsetWidth*0.7;
     var height = HEIGHTOFBOX;
+
     var x = col.offsetLeft + (col.offsetWidth - width)/2;
     var y = box.y;
 
