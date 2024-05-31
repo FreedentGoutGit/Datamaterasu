@@ -58,23 +58,28 @@
                     <p>We want to explore the effects of CO2 and GHG gas emissions on the environment, as well as potential solutions.</p>
                     <p>We have divided our work into three parts according to the 3 main bodies of work published by the IPCC working groups</p>
                     <nav>
-						<a href="#" onclick="fullpage_api.moveTo('EmissionsIntro')">Emissions</a>
-						<a href="#" onclick="fullpage_api.moveTo('ImpactIntro')">Impact</a>
-						<a href="#" onclick="fullpage_api.moveTo('MitigationIntro')">Mitigation</a>
-					</nav>
+                        <a href="#" onclick="fullpage_api.moveTo('Emissions')">Emissions</a>
+                        <a href="#" onclick="fullpage_api.moveTo('Impact')">Impact</a>
+                        <a href="#" onclick="fullpage_api.moveTo('Mitigation')">Mitigation</a>
+                    </nav>
                 </div>
             </div>
         </div>
 
-        <div class="section" id="section1" data-anchor="EmissionsIntro">
-            <div id="visualizerContent">
-                <h2>TITLE</h2>
-                <p>TEST</p>
-                <p>HI</p>
+        <div class="section" id="section1" data-anchor="Emissions">
+            <div class="intro" style="width: 80%; margin-left: 10%;">
+                <h1>The impact of climate change</h1>
+                <p class="pop">By 2050, climate change will cause <strong>14.5 million deaths and $12.5 trillion in losses</strong>. Healthcare costs will rise by $1.1 trillion.</p>
+                <p class="pop">Floods will lead to <strong>8.5 million deaths</strong>. Droughts will cause <strong>3.2 million deaths</strong>. Heat waves will cost <strong>$7.1 trillion</strong> in lost productivity.</p>
+                <p class="pop">Mosquito-borne diseases will spread, putting <strong>500 million</strong> more people at risk.</p>
+                <div class="sourceImpact pop">
+                    <p>Source: World Economic Forum : Insight report January 2024</p>
+                </div>
+                <h2 class="pop"> How is this happening and what can we do ?</h2>    
             </div>
         </div>
 
-        <div class="section" id="section2" data-anchor="Emissions">
+        <div class="section" id="section2" data-anchor="GlobeViz">
             <div id="visualizerContainer">
                 <div id="globeContainer">
                     <div id="globeControls">
@@ -96,37 +101,46 @@
             </div>
         </div>
 
-        <div class="section" id="section3" data-anchor="ImpactIntro">
-            <div class="intro">
-                <h1>Impact</h1>
-            </div>
-        </div>
-
-        <div class="section" id="section4" data-anchor="Impact">
-            <div html-include="impactV2" id="impact"></div>
-        </div>
-
-        <div class="section" id="section5" data-anchor="MitigationIntro">
-            <div class="intro">
-                <h1>We can still make it</h1>
-            </div>
-        </div>
-
-        <div class="section" id="section6" data-anchor="Mitigation1">
-            <div class="intro">
-                <div id="controls">
-                    <button id="restartButton">Restart Animation</button>
-                    <button id="startStopButton">Stop Animation</button>
+        <div class="section" id="section3" data-anchor="Impact">
+            <div class="intro" style="width: 80%; margin-left: 10%;">
+                <h1>The impact of climate change</h1>
+                <p class="pop">By 2050, climate change will cause <strong>14.5 million deaths and $12.5 trillion in losses</strong>. Healthcare costs will rise by $1.1 trillion.</p>
+                <p class="pop">Floods will lead to <strong>8.5 million deaths</strong>. Droughts will cause <strong>3.2 million deaths</strong>. Heat waves will cost <strong>$7.1 trillion</strong> in lost productivity.</p>
+                <p class="pop">Mosquito-borne diseases will spread, putting <strong>500 million</strong> more people at risk.</p>
+                <div class="sourceImpact pop">
+                    <p>Source: World Economic Forum : Insight report January 2024</p>
                 </div>
-                <div id="my_dataviz"></div>
-                <div class="tooltip" style="opacity:0"></div>
-                <div id="curve_info_container">
-                    <p id="curve_info">Information about the initial curve.</p>
-                </div>
+                <h2 class="pop"> How is this happening and what can we do ?</h2>    
             </div>
         </div>
 
-        <div class="section" id="section7" data-anchor="Mitigation2">
+        <div class="section" id="section4" data-anchor="VisualizeImpact">
+            <div class="intro">
+                <p style="color: black;">Click on the climate event image to discover the implications. Then press on the box</p>
+                <div html-include="impactV2" id="impact"></div>
+                <!--div id="gfx_holder" style="width:100%; height:100%; position: absolute"></div-->
+            </div>
+        </div>
+
+        <div class="section" id="section5" data-anchor="Mitigation">
+            <div class="intro">
+                <h1>Mitigation</h1>
+            </div>
+        </div>
+
+        <div class="section" id="section6" data-anchor="Sub15CScenarios">
+            <div id="controls">
+                <button id="restartButton">Start</button>
+                <button id="startStopButton">Stop</button>
+            </div>
+            <div id="my_dataviz"></div>
+            <div class="tooltip" style="opacity:0"></div>
+            <div id="curve_info_container">
+                <p id="curve_info">Information about the initial curve.</p>
+            </div>
+        </div>
+
+        <div class="section" id="section7" data-anchor="MainReductions2030">
             <div id="sunburst-breadcrumbs"></div>
             <div class="intro" id="sunburst-container">
                 <div id="sunburst-breadcrumbs"></div>
@@ -143,7 +157,7 @@
         new fullpage('#fullpage', {
             autoScrolling: true,
             navigation: true,
-            navigationTooltips: ['Introduction', 'Emissions Intro', 'Emissions', 'Impact Intro', 'Impact', 'Mitigation Intro', 'Mitigation 1', 'Mitigation 2'],
+            navigationTooltips: ['Introduction', 'Emissions', 'Globe visualization', 'Impact', 'Visualization of impact', 'Mitigation', 'Sub 1.5C scenarios', 'Main reductions by 2030'],
             showActiveTooltip: true,
             slidesNavigation: true,
             lazyLoad: true,
@@ -154,6 +168,9 @@
             afterLoad: function(origin, destination, direction) {
                 if (destination.index === 6 && destination.item.querySelector('#my_dataviz')) {
                     loadAndPlotData(); // Start the animation when entering the chart section
+                }
+                if (destination.index == 1) {
+                    popElements();
                 }
             }
         });

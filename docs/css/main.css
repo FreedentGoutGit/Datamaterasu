@@ -1,6 +1,6 @@
 :root {
 	--text-color: #FFFFFF;
-	--palette0: #E5D9B6;
+	--palette0: #b5a05f;
 	--palette1: #E5D9B6;
 	--palette2: #A4BE7B;
 	--palette3: #5F8D4E;
@@ -289,4 +289,24 @@ nav a {
 nav a:hover {
     background: var(--palette2);
     color: var(--palette1);
+}
+
+.sourceImpact {
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #555;
+}
+
+
+.pop {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.pop-in {
+    opacity: 1;
+    transform: scale(1);
 }

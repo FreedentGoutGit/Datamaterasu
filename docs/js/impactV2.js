@@ -16,6 +16,19 @@ var allFigs = [];
 var allConnections = [];
 
 
+function popElements(){ 
+
+    
+    const popElements = document.querySelectorAll('.pop');
+    let delay = 0;
+
+    popElements.forEach(element => {
+        setTimeout(() => {
+            element.classList.add('pop-in');
+        }, delay);
+        delay += 1500; 
+    });
+}
 
 
 function loadImpactFully()

@@ -251,7 +251,7 @@ function stopAnimation() {
 function startStopAnimation() {
   if (isAnimating) {
     stopAnimation();
-    d3.select("#startStopButton").text("Resume");
+    d3.select("#startStopButton").text("Start");
   } else {
     loadAndPlotData(true);
     d3.select("#startStopButton").text("Stop");
