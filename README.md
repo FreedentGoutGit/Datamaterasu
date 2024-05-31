@@ -24,23 +24,23 @@ The process book and screencast for milestone 3 can be found [here](https://gith
 The project is structured as follows:
 ```
 root
-|- data/        # collection of interesting and possibly useful datasets, unprocessed
-|- docs/        # website entry point
-|- milestones/  # milestone reports and associated data
-|- src/         # contains scripts for pre-processing and filtering data
-|- README.md    # this file
+├─ data/        # collection of interesting and possibly useful datasets, unprocessed
+├─ docs/        # website entry point
+├─ milestones/  # milestone reports and associated data
+├─ src/         # contains scripts for pre-processing and filtering data
+└─ README.md    # this file
 ```
 
 The website is run out of the `docs/` directory, with subdirectories organized as follows:
 ```
 docs
-|- css/         # all css files
-|- data/        # filtered/cleaned datasets for the website
-|- html/        # html template files
-|- images/      # any images that need to be loaded
-|- impact/      # content specifically related to the 'impact' section
-|- js/          # all javascript scripts
-|- index.html   # website entry point
+├─ css/         # all css files
+├─ data/        # filtered/cleaned datasets for the website
+├─ html/        # html template files
+├─ images/      # any images that need to be loaded
+├─ js/          # all javascript scripts
+├─ index.html   # website entry point
+└─ README.md    # this file
 ```
 
 To run the website locally, one simply needs to run a local server (such as through [live-server](https://tapiov.net/live-server/) or running `python -m http.server`) in the `docs/` directory. There are no installable dependencies, we use simple HTML, CSS, and JavaScript and load D3.js and other modules through the use of CDNs and `<script>` tags.
