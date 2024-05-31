@@ -17,6 +17,23 @@ var allConnections = [];
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    //event a delay to make the pop effect
+    //setTimeout(popElements, 5000);
+});
+
+function popElements(){ 
+    const popElements = document.querySelectorAll('.pop');
+    let delay = 0;
+
+    popElements.forEach(element => {
+        setTimeout(() => {
+            element.classList.add('pop-in');
+        }, delay);
+        delay += 1500; // Delay in milliseconds (500ms = 0.5s)
+    });
+}
+
 
 function loadImpactFully()
 {
