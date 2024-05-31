@@ -74,6 +74,7 @@ function loadImpactFully()
     var child = parent.firstChild;
 
     //style the child
+		child.style.width = "100%";
     child.style.position = "relative";
     child.style.height = div.offsetHeight;
     child.style.width = div.offsetWidth;
